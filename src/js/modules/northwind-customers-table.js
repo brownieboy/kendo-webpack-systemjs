@@ -11,3 +11,5 @@ class Table {
 		const that = this;
 	}
 }
+
+export default Table;
