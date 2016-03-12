@@ -22,6 +22,9 @@ const common = {
         app: path.resolve(ROOT_PATH) + "/" + PATHS.srcjs + "/app.js"
     },
     resolve: {
+        // Hard-coded path to kendo src files is only necessary due to this
+        // bug: https://github.com/webpack/webpack/issues/1897
+        // Note: this wasn't require in previous release of kendo
         modulesDirectories: ['node_modules', 'bower_components',
             path.join(__dirname, 'bower_components/kendo-ui/src/js')
         ]
@@ -37,11 +40,11 @@ const common = {
         }]
     },
     plugins: [
-        new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery",
-            "window.jQuery": "jquery"
-        })
+        // new webpack.ProvidePlugin({
+        //     $: "jquery",
+        //     jQuery: "jquery",
+        //     "window.jQuery": "jquery"
+        // })
     ],
     devtool: 'source-map'
 };

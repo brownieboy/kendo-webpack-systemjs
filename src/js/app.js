@@ -11,6 +11,6 @@ const tableProps = {
 
 $(document).ready(function() {
     console.log("app started");
-    const myTable = new Table(tableProps);
+    // const myTable = new Table(tableProps);
 
 });
