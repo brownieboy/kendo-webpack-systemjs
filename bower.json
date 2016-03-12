@@ -14,5 +14,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "kendo-ui": "https://bower.telerik.com/bower-kendo-ui.git#^2016.1.226+SP1"
+  }
 }
