@@ -1,26 +1,28 @@
-import "kendo-ui/src/js/kendo.data.js"; // will be imported as kendo variable.  No need to specify.
+// import "kendo-ui/src/js/kendo.data.js"; // will be imported as kendo variable.  No need to specify.
 
 
-class TableDataFormatter {
-    constructor(props) {
-        this.props = props;
-    }
+const getNewDataSource = function(props) {
+    const model = props.model;
+    const paths = props.paths;
 
-    getNewDataSource() {
-        const props = this.props;
-        const model = props.model;
-        const paths = props.paths;
+    const newDataSource = new kendo.data.DataSource({
+        schema: { model: model },
+        type: "odata",
+        transport: {
+            read: paths.read
+        },
+        pageSize: 20
+    });
 
-        const newDataSource = new kendo.data.Datasource({
-            schema: { model: model },
-            transport: {
-                type: "odata",
-                transport: {
-                    read: paths.read
-                },
-                pageSize: 20
-            }
-        });
-        return newDataSource;
-    }
-}
+    // const newDataSource = {
+    //     type: "odata",
+    //     transport: {
+    //         read: paths.read
+    //     },
+    //     pageSize: 20
+    // };
+
+    return newDataSource;
+};
+
+export default getNewDataSource;
