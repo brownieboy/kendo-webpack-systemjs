@@ -1,9 +1,10 @@
+//  Customers tables
 const getTableModel = function() {
     return {
         name: "northwind-customers",
         title: "Northwind Customers",
         paths: {
-            read: "//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers",
+            read: "//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers"
         },
         model: {},
         columns: [{
