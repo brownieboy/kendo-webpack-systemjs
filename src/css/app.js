@@ -1,0 +1,19 @@
+    .customer-photo {
+            display: inline - block;
+            width: 32 px;
+            height: 32 px;
+            border - radius: 50 % ;
+            background - size: 32 px 35 px;
+            background - position: center center;
+            vertical - align: middle;
+            line - height: 32 px;
+            box - shadow: inset 0 0 1 px #999, inset 0 0 10px rgba(0,0,0,.2);
+        margin-left: 5px;
+    }
+
+    .customer-name {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 32px;
+        padding-left: 3px;
+    }
