@@ -16,14 +16,14 @@
     </div>
     <script src=" ../node_modules/jquery/dist/jquery.min.js "></script>
     <script src="../node_modules/systemjs/dist/system.js"></script>
+    
+    <!--http://127.0.0.1:8887/bower_components/kendo-ui/src/js/kendo-ui/src/js/kendo.router.js-->
     <script>
     System.config({
         defaultJSExtensions: true,
         paths: {
-            '*': '../node_modules/*',
-            'kendo-ui/src/js/*.js': "../bower_components/kendo-ui/js/*.min.js",
-            'node_modules/kendo.*.min.js': "../bower_components/kendo-ui/js/kendo*.min.js"
-        },
+            'kendo-ui/src/js/': "../bower_components/kendo-ui/src/js/"
+            },
         transpiler: "plugin-babel",
         map: {
             "plugin-babel": "../node_modules/systemjs-plugin-babel/plugin-babel.js",
