@@ -7,7 +7,7 @@ class Table {
         this.props = props;
         this.currentGrid = this.setupGrid();
         this.wrapperSelector = props.wrapperSelector || "#tableWrapper";
-        this.el = props.name;  // el terminology is from Backbone.
+        this.el = props.getModel().name;  // el (as in element) terminology is from Backbone.
         this.setupGrid();
     }
 

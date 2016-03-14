@@ -17,3 +17,7 @@
         line-height: 32px;
         padding-left: 3px;
     }
+
+    .tableWrapper {
+        margin: 25px;
+    }
