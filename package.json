@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server",
-        "build": "gulp cleanBuildFolder && gulp buildAssets && node_modules/.bin/webpack && gulp copyHTMLAndInjectBuildRefs",
+        "buildwp": "node_modules/.bin/webpack",
+        "build": "gulp cleanBuildFolder && gulp buildAssets && npm run buildwp && gulp copyHTMLAndInjectBuildRefs",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],

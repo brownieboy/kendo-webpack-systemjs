@@ -15,16 +15,14 @@ const PATHS = {
 console.log("webpack is using webpack.config.babel.js, TARGET = " + TARGET);
 var exportModule = {};
 
-console.log("fallback=" + path.join(__dirname, "bower_components/kendo-ui/src/js"));
-
 const common = {
     entry: {
-        app: path.resolve(ROOT_PATH) + "/" + PATHS.srcjs + "/app.js"
+        app: path.resolve(ROOT_PATH) + "/" + PATHS.srcjs + "/index.js"
     },
     resolve: {
         // Hard-coded path to kendo src files is only necessary due to this
         // bug: https://github.com/webpack/webpack/issues/1897
-        // Note: this wasn't require in previous release of kendo
+        // Note: this wasn't require in previous releases of kendo
         modulesDirectories: ['node_modules', 'bower_components',
             path.join(__dirname, 'bower_components/kendo-ui/src/js')
         ]
@@ -40,6 +38,9 @@ const common = {
         }]
     },
     plugins: [
+        // Doesn't work with the 2016 versions of Kendo.  I don't know why.  It worked
+        // with the 2015 versions.  So have added a separate <script> tag to load
+        // jQuery for now.
         // new webpack.ProvidePlugin({
         //     $: "jquery",
         //     jQuery: "jquery",
@@ -50,7 +51,7 @@ const common = {
 };
 
 
-if (TARGET === 'build') {
+if (TARGET === 'buildwp') {
     // Includes minification, so slow build times and smaller files.  Use for final build to prod only.
     exportModule = merge(common, {
         output: {

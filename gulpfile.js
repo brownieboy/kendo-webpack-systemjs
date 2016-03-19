@@ -54,6 +54,6 @@ gulp.task('copyHTMLAndInjectBuildRefs', function() {
 });
 
 
-gulp.task('buildAssets', ['copyCSS', 'copyHTMLAndInjectBuildRefs']);
+gulp.task('buildAssets', ['copyCSS']);
 
 
