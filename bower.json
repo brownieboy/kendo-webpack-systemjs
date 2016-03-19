@@ -6,16 +6,16 @@
     "Michael Brown<brownieboy@gmail.com>"
   ],
   "license": "ISC",
-  "moduleType": [],
-  "homepage": "",
+  "homepage": "https://github.com/brownieboy/kendo-webpack-systemjs",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ],
-  "devDependencies": {
-    "kendo-ui": "https://bower.telerik.com/bower-kendo-ui.git#^2016.1.112"
-  }
+  ]
 }
