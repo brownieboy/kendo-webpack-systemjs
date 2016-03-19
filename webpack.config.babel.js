@@ -50,6 +50,27 @@ const common = {
 };
 
 
+if (TARGET === 'build') {
+    // Includes minification, so slow build times and smaller files.  Use for final build to prod only.
+    exportModule = merge(common, {
+        output: {
+            path: path.resolve(ROOT_PATH, 'build/js/'),
+            filename: '[name].js'
+        },
+
+        plugins: [
+            new webpack.optimize.CommonsChunkPlugin("vendor", 'vendor.js', function(module, count) {
+                return module.resource && module.resource.indexOf(srcDir) === -1;
+            }),
+            new webpack.optimize.UglifyJsPlugin({
+                compress: {
+                    warnings: false
+                }
+            })
+        ]
+    });
+}
+
 // Note when inline is set to true, we get an error:
 //  Module not found: Error: Cannot resolve 'file' or 'directory' ./dist/debug.js
 // see http://stackoverflow.com/questions/34549508/webpack-dev-server-error-with-hot-module-replacement
