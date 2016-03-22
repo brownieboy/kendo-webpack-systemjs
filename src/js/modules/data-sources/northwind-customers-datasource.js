@@ -1,4 +1,4 @@
-import "kendo-ui/src/js/kendo.data.js"; // will be imported as kendo variable.  No need to specify.
+import "kendo.data.js"; // will be imported as kendo variable.  No need to specify.
 
 
 const getNewDataSource = function(props) {

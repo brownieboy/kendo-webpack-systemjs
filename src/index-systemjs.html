@@ -22,16 +22,17 @@
     System.config({
         defaultJSExtensions: true,
         paths: {
-            'kendo-ui/src/js/': "../bower_components/kendo-ui/src/js/"
+            // 'kendo-ui/src/js/': "../bower_components/kendo-ui/src/js/"
+            "kendo.*": "../bower_components/kendo-ui/src/js/kendo.*"
             },
         transpiler: "plugin-babel",
         map: {
             "plugin-babel": "../node_modules/systemjs-plugin-babel/plugin-babel.js",
             'systemjs-babel-build': '../node_modules/systemjs-plugin-babel/systemjs-babel-browser.js',
-            jquery: '../../../node_modules/jquery/dist/jquery.min.js'
+            jquery: '../node_modules/jquery/dist/jquery.min.js'
         }
     });
-    System.import('./js/app.js');
+    System.import('./js/index.js');
     </script>
 </body>
 

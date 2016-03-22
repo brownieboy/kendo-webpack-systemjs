@@ -1,4 +1,4 @@
-import "kendo-ui/src/js/kendo.router.js";
+import "kendo.router.js";
 import getTableClassDef from './modules/helpers/gettableclassdef.js';
 
 

@@ -1,4 +1,4 @@
-import "kendo-ui/src/js/kendo.grid.js";
+import "kendo.grid.js";
 import getTableWrapperTemplate from './templates/tablewrappertemplate.js';
 
 
