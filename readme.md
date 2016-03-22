@@ -3,7 +3,7 @@ Basic boilerplate for using KendoUI Pro with ES6 modules, using Webpack as the m
 
 In this way, only the parts of Kendo that you're actually using will be included in your final code, resulting in a huge file size reduction in your final code.  (Yes, you can always create a custom version of Kendo by hand, but do you really want to keep having to so that every time you add a new Kendo feature?  That's assuming that you even remember to do it, of course!)
 
-Note: I also intended to include a SystemJS version, but I've been unable to get this working with the 2016 versions of Kendo UI.  See [my bug report](http://www.telerik.com/forums/kendoui-2016-and-systemjs) for more info on this.
+Also includes a SystemJS version.  Open the file /src/index-systemjs.html in a local web server to see this version.
 
 
 ##Environment
