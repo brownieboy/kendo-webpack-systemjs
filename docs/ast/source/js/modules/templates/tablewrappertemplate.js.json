@@ -1,0 +1,623 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "Identifier",
+      "id": {
+        "type": "Identifier",
+        "name": "getTableWrapper",
+        "range": [
+          142,
+          157
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 24
+          }
+        }
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "tableId",
+          "range": [
+            158,
+            165
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 32
+            }
+          }
+        },
+        {
+          "type": "Identifier",
+          "name": "tableTitle",
+          "range": [
+            167,
+            177
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 34
+            },
+            "end": {
+              "line": 3,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "TemplateLiteral",
+              "quasis": [
+                {
+                  "type": "TemplateElement",
+                  "value": {
+                    "raw": "\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">\r\n                <h3 class=\"panel-title\">",
+                    "cooked": "\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">"
+                  },
+                  "tail": false,
+                  "range": [
+                    193,
+                    322
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 4,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 42
+                    }
+                  }
+                },
+                {
+                  "type": "TemplateElement",
+                  "value": {
+                    "raw": "</h3>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div id=\"",
+                    "cooked": "</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\""
+                  },
+                  "tail": false,
+                  "range": [
+                    332,
+                    425
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 52
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 27
+                    }
+                  }
+                },
+                {
+                  "type": "TemplateElement",
+                  "value": {
+                    "raw": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\r\n            </div>\r\n        </div>\r\n    ",
+                    "cooked": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    "
+                  },
+                  "tail": true,
+                  "range": [
+                    432,
+                    536
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 34
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 5
+                    }
+                  }
+                }
+              ],
+              "expressions": [
+                {
+                  "type": "Identifier",
+                  "name": "tableTitle",
+                  "range": [
+                    322,
+                    332
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 42
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 52
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "name": "tableId",
+                  "range": [
+                    425,
+                    432
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 27
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 34
+                    }
+                  }
+                }
+              ],
+              "range": [
+                193,
+                536
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 11
+                },
+                "end": {
+                  "line": 13,
+                  "column": 5
+                }
+              }
+            },
+            "range": [
+              186,
+              537
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 13,
+                "column": 6
+              }
+            }
+          }
+        ],
+        "range": [
+          179,
+          540
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 46
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        }
+      },
+      "generator": false,
+      "expression": false,
+      "range": [
+        133,
+        540
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "leadingComments": [],
+      "name": "_",
+      "trailingComments": []
+    },
+    {
+      "type": "Identifier",
+      "declaration": {
+        "type": "Identifier",
+        "name": "getTableWrapper",
+        "range": [
+          559,
+          574
+        ],
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 15
+          },
+          "end": {
+            "line": 16,
+            "column": 30
+          }
+        }
+      },
+      "range": [
+        544,
+        575
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 31
+        }
+      },
+      "name": "_",
+      "leadingComments": [],
+      "trailingComments": []
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "getTableWrapper",
+          "range": [
+            142,
+            157
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 9
+            },
+            "end": {
+              "line": 3,
+              "column": 24
+            }
+          }
+        },
+        "params": [
+          {
+            "type": "Identifier",
+            "name": "tableId",
+            "range": [
+              158,
+              165
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 25
+              },
+              "end": {
+                "line": 3,
+                "column": 32
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "tableTitle",
+            "range": [
+              167,
+              177
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 34
+              },
+              "end": {
+                "line": 3,
+                "column": 44
+              }
+            }
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "TemplateLiteral",
+                "quasis": [
+                  {
+                    "type": "TemplateElement",
+                    "value": {
+                      "raw": "\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">\r\n                <h3 class=\"panel-title\">",
+                      "cooked": "\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">"
+                    },
+                    "tail": false,
+                    "range": [
+                      193,
+                      322
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 4,
+                        "column": 11
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 42
+                      }
+                    }
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "value": {
+                      "raw": "</h3>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div id=\"",
+                      "cooked": "</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\""
+                    },
+                    "tail": false,
+                    "range": [
+                      332,
+                      425
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 7,
+                        "column": 52
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 27
+                      }
+                    }
+                  },
+                  {
+                    "type": "TemplateElement",
+                    "value": {
+                      "raw": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\r\n            </div>\r\n        </div>\r\n    ",
+                      "cooked": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    "
+                    },
+                    "tail": true,
+                    "range": [
+                      432,
+                      536
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 34
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 5
+                      }
+                    }
+                  }
+                ],
+                "expressions": [
+                  {
+                    "type": "Identifier",
+                    "name": "tableTitle",
+                    "range": [
+                      322,
+                      332
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 7,
+                        "column": 42
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 52
+                      }
+                    }
+                  },
+                  {
+                    "type": "Identifier",
+                    "name": "tableId",
+                    "range": [
+                      425,
+                      432
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 27
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 34
+                      }
+                    }
+                  }
+                ],
+                "range": [
+                  193,
+                  536
+                ],
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 13,
+                    "column": 5
+                  }
+                }
+              },
+              "range": [
+                186,
+                537
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 4
+                },
+                "end": {
+                  "line": 13,
+                  "column": 6
+                }
+              }
+            }
+          ],
+          "range": [
+            179,
+            540
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 46
+            },
+            "end": {
+              "line": 14,
+              "column": 1
+            }
+          }
+        },
+        "generator": false,
+        "expression": false,
+        "range": [
+          133,
+          540
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Line",
+            "value": " This function uses ES6 template strings,",
+            "range": [
+              0,
+              43
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 43
+              }
+            }
+          },
+          {
+            "type": "Line",
+            "value": " see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings",
+            "range": [
+              45,
+              131
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 86
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        544,
+        575
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 31
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    133,
+    575
+  ],
+  "loc": {
+    "start": {
+      "line": 3,
+      "column": 0
+    },
+    "end": {
+      "line": 16,
+      "column": 31
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": " This function uses ES6 template strings,",
+      "range": [
+        0,
+        43
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings",
+      "range": [
+        45,
+        131
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 86
+        }
+      }
+    }
+  ]
+}

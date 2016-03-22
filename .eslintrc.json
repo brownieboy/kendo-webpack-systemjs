@@ -6,7 +6,9 @@
             "modules": true
         }
     },
+    "extends": "eslint",
     "rules": {
-        "semi": 2
+        "semi": 2,
+        "indent": "off"
     }
 }

@@ -1,0 +1,1407 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "NorthwindTable",
+            "range": [
+              7,
+              21
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 21
+              }
+            }
+          },
+          "range": [
+            7,
+            21
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 21
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "../../modules/northwind-table.js",
+        "raw": "'../../modules/northwind-table.js'",
+        "range": [
+          27,
+          61
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 27
+          },
+          "end": {
+            "line": 1,
+            "column": 61
+          }
+        }
+      },
+      "range": [
+        0,
+        62
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 62
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "getNorthwindCustomersModel",
+            "range": [
+              71,
+              97
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 7
+              },
+              "end": {
+                "line": 2,
+                "column": 33
+              }
+            }
+          },
+          "range": [
+            71,
+            97
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "../../models/northwind-customers-model.js",
+        "raw": "'../../models/northwind-customers-model.js'",
+        "range": [
+          103,
+          146
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 39
+          },
+          "end": {
+            "line": 2,
+            "column": 82
+          }
+        }
+      },
+      "range": [
+        64,
+        147
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "getNorthwindCustomersDataSource",
+            "range": [
+              156,
+              187
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 38
+              }
+            }
+          },
+          "range": [
+            156,
+            187
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 38
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "../data-sources/northwind-customers-datasource.js",
+        "raw": "'../data-sources/northwind-customers-datasource.js'",
+        "range": [
+          193,
+          244
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 44
+          },
+          "end": {
+            "line": 3,
+            "column": 95
+          }
+        }
+      },
+      "range": [
+        149,
+        245
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 96
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "getNorthwindOrdersModel",
+            "range": [
+              254,
+              277
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 7
+              },
+              "end": {
+                "line": 4,
+                "column": 30
+              }
+            }
+          },
+          "range": [
+            254,
+            277
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 30
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "../../models/northwind-orders-model.js",
+        "raw": "'../../models/northwind-orders-model.js'",
+        "range": [
+          283,
+          323
+        ],
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 76
+          }
+        }
+      },
+      "range": [
+        247,
+        324
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 77
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "getNorthwindOrdersDataSource",
+            "range": [
+              333,
+              361
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 7
+              },
+              "end": {
+                "line": 5,
+                "column": 35
+              }
+            }
+          },
+          "range": [
+            333,
+            361
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "../data-sources/northwind-orders-datasource.js",
+        "raw": "'../data-sources/northwind-orders-datasource.js'",
+        "range": [
+          367,
+          415
+        ],
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 5,
+            "column": 89
+          }
+        }
+      },
+      "range": [
+        326,
+        416
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 90
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "allTableClassesObject",
+            "range": [
+              428,
+              449
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 6
+              },
+              "end": {
+                "line": 8,
+                "column": 27
+              }
+            }
+          },
+          "init": {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "northwind-customers",
+                  "raw": "\"northwind-customers\"",
+                  "range": [
+                    459,
+                    480
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 25
+                    }
+                  }
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "TableClass",
+                        "range": [
+                          493,
+                          503
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 10,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 10,
+                            "column": 18
+                          }
+                        }
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "NorthwindTable",
+                        "range": [
+                          505,
+                          519
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 10,
+                            "column": 20
+                          },
+                          "end": {
+                            "line": 10,
+                            "column": 34
+                          }
+                        }
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "range": [
+                        493,
+                        519
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 34
+                        }
+                      }
+                    },
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "props",
+                        "range": [
+                          530,
+                          535
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 11,
+                            "column": 13
+                          }
+                        }
+                      },
+                      "value": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "getModel",
+                              "range": [
+                                552,
+                                560
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 12
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 20
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "getNorthwindCustomersModel",
+                              "range": [
+                                562,
+                                588
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 22
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 48
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              552,
+                              588
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 12,
+                                "column": 12
+                              },
+                              "end": {
+                                "line": 12,
+                                "column": 48
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "getNewDataSource",
+                              "range": [
+                                603,
+                                619
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 12
+                                },
+                                "end": {
+                                  "line": 13,
+                                  "column": 28
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "getNorthwindCustomersDataSource",
+                              "range": [
+                                621,
+                                652
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 30
+                                },
+                                "end": {
+                                  "line": 13,
+                                  "column": 61
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              603,
+                              652
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 13,
+                                "column": 12
+                              },
+                              "end": {
+                                "line": 13,
+                                "column": 61
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          537,
+                          663
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 14,
+                            "column": 9
+                          }
+                        }
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "range": [
+                        530,
+                        663
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 11,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 14,
+                          "column": 9
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    482,
+                    670
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 27
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 5
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  459,
+                  670
+                ],
+                "loc": {
+                  "start": {
+                    "line": 9,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 5
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Literal",
+                  "value": "northwind-orders",
+                  "raw": "\"northwind-orders\"",
+                  "range": [
+                    677,
+                    695
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 16,
+                      "column": 22
+                    }
+                  }
+                },
+                "value": {
+                  "type": "ObjectExpression",
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "TableClass",
+                        "range": [
+                          708,
+                          718
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 17,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 17,
+                            "column": 18
+                          }
+                        }
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "name": "NorthwindTable",
+                        "range": [
+                          720,
+                          734
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 17,
+                            "column": 20
+                          },
+                          "end": {
+                            "line": 17,
+                            "column": 34
+                          }
+                        }
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "range": [
+                        708,
+                        734
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 17,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 17,
+                          "column": 34
+                        }
+                      }
+                    },
+                    {
+                      "type": "Property",
+                      "key": {
+                        "type": "Identifier",
+                        "name": "props",
+                        "range": [
+                          745,
+                          750
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 8
+                          },
+                          "end": {
+                            "line": 18,
+                            "column": 13
+                          }
+                        }
+                      },
+                      "value": {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "getModel",
+                              "range": [
+                                767,
+                                775
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 19,
+                                  "column": 12
+                                },
+                                "end": {
+                                  "line": 19,
+                                  "column": 20
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "getNorthwindOrdersModel",
+                              "range": [
+                                777,
+                                800
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 19,
+                                  "column": 22
+                                },
+                                "end": {
+                                  "line": 19,
+                                  "column": 45
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              767,
+                              800
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 19,
+                                "column": 12
+                              },
+                              "end": {
+                                "line": 19,
+                                "column": 45
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "getNewDataSource",
+                              "range": [
+                                815,
+                                831
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 20,
+                                  "column": 12
+                                },
+                                "end": {
+                                  "line": 20,
+                                  "column": 28
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Identifier",
+                              "name": "getNorthwindOrdersDataSource",
+                              "range": [
+                                833,
+                                861
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 20,
+                                  "column": 30
+                                },
+                                "end": {
+                                  "line": 20,
+                                  "column": 58
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              815,
+                              861
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 20,
+                                "column": 12
+                              },
+                              "end": {
+                                "line": 20,
+                                "column": 58
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          752,
+                          872
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 21,
+                            "column": 9
+                          }
+                        }
+                      },
+                      "kind": "init",
+                      "method": false,
+                      "shorthand": false,
+                      "computed": false,
+                      "range": [
+                        745,
+                        872
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 18,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 21,
+                          "column": 9
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    697,
+                    879
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 16,
+                      "column": 24
+                    },
+                    "end": {
+                      "line": 22,
+                      "column": 5
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "shorthand": false,
+                "computed": false,
+                "range": [
+                  677,
+                  879
+                ],
+                "loc": {
+                  "start": {
+                    "line": 16,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 5
+                  }
+                }
+              }
+            ],
+            "range": [
+              452,
+              882
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 30
+              },
+              "end": {
+                "line": 23,
+                "column": 1
+              }
+            }
+          },
+          "range": [
+            428,
+            882
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 6
+            },
+            "end": {
+              "line": 23,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "const",
+      "range": [
+        422,
+        883
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "id": {
+        "type": "Identifier",
+        "name": "getTableClassDef",
+        "range": [
+          896,
+          912
+        ],
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 9
+          },
+          "end": {
+            "line": 25,
+            "column": 25
+          }
+        }
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "name": "tableName",
+          "range": [
+            913,
+            922
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 26
+            },
+            "end": {
+              "line": 25,
+              "column": 35
+            }
+          }
+        }
+      ],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "MemberExpression",
+              "computed": true,
+              "object": {
+                "type": "Identifier",
+                "name": "allTableClassesObject",
+                "range": [
+                  938,
+                  959
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 32
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "tableName",
+                "range": [
+                  960,
+                  969
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 33
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 42
+                  }
+                }
+              },
+              "range": [
+                938,
+                970
+              ],
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 11
+                },
+                "end": {
+                  "line": 26,
+                  "column": 43
+                }
+              }
+            },
+            "range": [
+              931,
+              971
+            ],
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 4
+              },
+              "end": {
+                "line": 26,
+                "column": 44
+              }
+            }
+          }
+        ],
+        "range": [
+          924,
+          974
+        ],
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 37
+          },
+          "end": {
+            "line": 27,
+            "column": 1
+          }
+        }
+      },
+      "generator": false,
+      "expression": false,
+      "range": [
+        887,
+        974
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 1
+        }
+      },
+      "name": "_",
+      "leadingComments": [],
+      "trailingComments": []
+    },
+    {
+      "type": "EmptyStatement",
+      "range": [
+        974,
+        975
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 1
+        },
+        "end": {
+          "line": 27,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Identifier",
+      "declaration": {
+        "type": "Identifier",
+        "name": "getTableClassDef",
+        "range": [
+          996,
+          1012
+        ],
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 15
+          },
+          "end": {
+            "line": 30,
+            "column": 31
+          }
+        }
+      },
+      "range": [
+        981,
+        1013
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 32
+        }
+      },
+      "name": "_",
+      "leadingComments": [],
+      "trailingComments": []
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "getTableClassDef",
+          "range": [
+            896,
+            912
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 9
+            },
+            "end": {
+              "line": 25,
+              "column": 25
+            }
+          }
+        },
+        "params": [
+          {
+            "type": "Identifier",
+            "name": "tableName",
+            "range": [
+              913,
+              922
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 26
+              },
+              "end": {
+                "line": 25,
+                "column": 35
+              }
+            }
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "MemberExpression",
+                "computed": true,
+                "object": {
+                  "type": "Identifier",
+                  "name": "allTableClassesObject",
+                  "range": [
+                    938,
+                    959
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 26,
+                      "column": 11
+                    },
+                    "end": {
+                      "line": 26,
+                      "column": 32
+                    }
+                  }
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "tableName",
+                  "range": [
+                    960,
+                    969
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 26,
+                      "column": 33
+                    },
+                    "end": {
+                      "line": 26,
+                      "column": 42
+                    }
+                  }
+                },
+                "range": [
+                  938,
+                  970
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 43
+                  }
+                }
+              },
+              "range": [
+                931,
+                971
+              ],
+              "loc": {
+                "start": {
+                  "line": 26,
+                  "column": 4
+                },
+                "end": {
+                  "line": 26,
+                  "column": 44
+                }
+              }
+            }
+          ],
+          "range": [
+            924,
+            974
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 37
+            },
+            "end": {
+              "line": 27,
+              "column": 1
+            }
+          }
+        },
+        "generator": false,
+        "expression": false,
+        "range": [
+          887,
+          974
+        ],
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 0
+          },
+          "end": {
+            "line": 27,
+            "column": 1
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        981,
+        1013
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 32
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1013
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 30,
+      "column": 32
+    }
+  },
+  "comments": []
+}

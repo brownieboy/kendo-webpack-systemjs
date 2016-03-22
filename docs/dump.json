@@ -1,0 +1,1188 @@
+[
+  {
+    "__docId__": 0,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/index.js",
+    "memberof": null,
+    "longname": "src/js/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 2,
+    "content": "/* global $, document */\r\nimport \"kendo.router.js\";\r\nimport getTableClassDef from \"./modules/helpers/gettableclassdef.js\";\r\n\r\n\r\n$(document).ready(function() {\r\n    const customersTableDef = getTableClassDef(\"northwind-customers\");\r\n    const customersTable = new customersTableDef.TableClass(customersTableDef.props);  // eslint-disable-line no-unused-vars\r\n    const ordersTableDef = getTableClassDef(\"northwind-orders\");\r\n    const ordersTable = new ordersTableDef.TableClass(ordersTableDef.props);  // eslint-disable-line no-unused-vars\r\n});\r\n\r\n"
+  },
+  {
+    "__docId__": 1,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/models/northwind-customers-model.js",
+    "memberof": null,
+    "longname": "src/js/models/northwind-customers-model.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 6,
+    "content": "//  Northwind Customers Table mmodel\r\n/**\r\n* This is getTableModel for Northwind Customers Table\r\n* @returns {object} the model object for the Northwind Customers Table\r\n*/\r\nfunction getTableModel() {\r\n    return {\r\n        name: \"northwind-customers\",\r\n        title: \"Northwind Customers\",\r\n        paths: {\r\n            read: \"//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers\"\r\n        },\r\n        model: {},\r\n        columns: [{\r\n            template: \"<div class='customer-photo'ß\" +\r\n                \"style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>\" +\r\n                \"<div class='customer-name'>#: ContactName #</div>\",\r\n            field: \"ContactName\",\r\n            title: \"Contact Name\",\r\n            width: 240\r\n        }, {\r\n            field: \"ContactTitle\",\r\n            title: \"Contact Title\"\r\n        }, {\r\n            field: \"CompanyName\",\r\n            title: \"Company Name\"\r\n        }, {\r\n            field: \"Country\",\r\n            width: 150\r\n        }]\r\n    };\r\n}\r\n\r\nexport default getTableModel;\r\n"
+  },
+  {
+    "__docId__": 2,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getTableModel",
+    "memberof": "src/js/models/northwind-customers-model.js",
+    "longname": "src/js/models/northwind-customers-model.js~getTableModel",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/models/northwind-customers-model.js",
+    "importStyle": "getTableModel",
+    "description": "This is getTableModel for Northwind Customers Table",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} the model object for the Northwind Customers Table"
+      }
+    ],
+    "params": [],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "the model object for the Northwind Customers Table"
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 3,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/models/northwind-orders-model.js",
+    "memberof": null,
+    "longname": "src/js/models/northwind-orders-model.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 6,
+    "content": "//  Northwind Orders Table model\r\n/**\r\n * This is getTableModel for Northwind Orders Table\r\n * @returns {object} the model object for the Northwind Customers Table\r\n */\r\nfunction getTableModel() {\r\n    return {\r\n        name: \"northwind-orders\",\r\n        title: \"Northwind Orders\",\r\n        paths: {\r\n            read: \"//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders\"\r\n        },\r\n        model: {},\r\n        columns: [{\r\n                \"field\": \"OrderID\",\r\n                \"filterable\": false\r\n            },\r\n            \"Freight\", {\r\n                field: \"OrderDate\",\r\n                title: \"Order Date\",\r\n                format: \"{0:MM/dd/yyyy}\"\r\n            }, {\r\n                field: \"ShipName\",\r\n                title: \"Ship Name\"\r\n            }, {\r\n                field: \"ShipCity\",\r\n                title: \"Ship City\"\r\n            }\r\n        ]\r\n    };\r\n}\r\n\r\nexport default getTableModel;\r\n"
+  },
+  {
+    "__docId__": 4,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getTableModel",
+    "memberof": "src/js/models/northwind-orders-model.js",
+    "longname": "src/js/models/northwind-orders-model.js~getTableModel",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/models/northwind-orders-model.js",
+    "importStyle": "getTableModel",
+    "description": "This is getTableModel for Northwind Orders Table",
+    "lineNumber": 6,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} the model object for the Northwind Customers Table"
+      }
+    ],
+    "params": [],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "the model object for the Northwind Customers Table"
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 5,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/modules/data-sources/northwind-customers-datasource.js",
+    "memberof": null,
+    "longname": "src/js/modules/data-sources/northwind-customers-datasource.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 2,
+    "content": "/* global kendo */\r\nimport \"kendo.data.js\"; // will be imported as kendo variable.  No need to specify.\r\n\r\n/**\r\n * This is getNewDataSource\r\n * @param {object} props - config object for function.  Elements of this object are:\r\n * @param {object} props.model - the model for this data source\r\n * @param {object} props.paths - the paths to the APIs for this data source\r\n * @returns {object} a new kendo.data.DataSource, based on configs passed in\r\n */\r\nfunction getNewDataSource(props) {\r\n    const model = props.model;\r\n    const paths = props.paths;\r\n\r\n    const newDataSource = new kendo.data.DataSource({\r\n        schema: { model: model },\r\n        type: \"odata\",\r\n        transport: {\r\n            read: paths.read\r\n        },\r\n        pageSize: 20\r\n    });\r\n\r\n    return newDataSource;\r\n}\r\n\r\nexport default getNewDataSource;\r\n"
+  },
+  {
+    "__docId__": 6,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getNewDataSource",
+    "memberof": "src/js/modules/data-sources/northwind-customers-datasource.js",
+    "longname": "src/js/modules/data-sources/northwind-customers-datasource.js~getNewDataSource",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/modules/data-sources/northwind-customers-datasource.js",
+    "importStyle": "getNewDataSource",
+    "description": "This is getNewDataSource",
+    "lineNumber": 11,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{object} a new kendo.data.DataSource, based on configs passed in"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "config object for function.  Elements of this object are:"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.model",
+        "description": "the model for this data source"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.paths",
+        "description": "the paths to the APIs for this data source"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "a new kendo.data.DataSource, based on configs passed in"
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 7,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/modules/data-sources/northwind-orders-datasource.js",
+    "memberof": null,
+    "longname": "src/js/modules/data-sources/northwind-orders-datasource.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": " import \"kendo.data.js\"; // will be imported as kendo variable.  No need to specify.\r\n\r\n\r\n const getNewDataSource = function(props) {\r\n     const model = props.model;\r\n     const paths = props.paths;\r\n\r\n     const newDataSource = new kendo.data.DataSource({\r\n         schema: { model: model },\r\n         type: \"odata\",\r\n         transport: {\r\n             read: paths.read\r\n         },\r\n         serverPaging: true,\r\n         serverSorting: true,\r\n         pageSize: 100\r\n     });\r\n\r\n     return newDataSource;\r\n };\r\n\r\n export default getNewDataSource;\r\n"
+  },
+  {
+    "__docId__": 8,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getNewDataSource",
+    "memberof": "src/js/modules/data-sources/northwind-orders-datasource.js",
+    "longname": "src/js/modules/data-sources/northwind-orders-datasource.js~getNewDataSource",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/modules/data-sources/northwind-orders-datasource.js",
+    "importStyle": "getNewDataSource",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 9,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/modules/helpers/gettableclassdef.js",
+    "memberof": null,
+    "longname": "src/js/modules/helpers/gettableclassdef.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import NorthwindTable from '../../modules/northwind-table.js';\r\nimport getNorthwindCustomersModel from '../../models/northwind-customers-model.js';\r\nimport getNorthwindCustomersDataSource from '../data-sources/northwind-customers-datasource.js';\r\nimport getNorthwindOrdersModel from '../../models/northwind-orders-model.js';\r\nimport getNorthwindOrdersDataSource from '../data-sources/northwind-orders-datasource.js';\r\n\r\n\r\nconst allTableClassesObject = {\r\n    \"northwind-customers\": {\r\n        TableClass: NorthwindTable,\r\n        props: {\r\n            getModel: getNorthwindCustomersModel,\r\n            getNewDataSource: getNorthwindCustomersDataSource\r\n        }\r\n    },\r\n    \"northwind-orders\": {\r\n        TableClass: NorthwindTable,\r\n        props: {\r\n            getModel: getNorthwindOrdersModel,\r\n            getNewDataSource: getNorthwindOrdersDataSource\r\n        }\r\n    }\r\n};\r\n\r\nfunction getTableClassDef(tableName) {\r\n    return allTableClassesObject[tableName];\r\n};\r\n\r\n\r\nexport default getTableClassDef;"
+  },
+  {
+    "__docId__": 10,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "allTableClassesObject",
+    "memberof": "src/js/modules/helpers/gettableclassdef.js",
+    "longname": "src/js/modules/helpers/gettableclassdef.js~allTableClassesObject",
+    "access": null,
+    "export": false,
+    "importPath": "kendo-webpack-systemjs/src/js/modules/helpers/gettableclassdef.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 11,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getTableClassDef",
+    "memberof": "src/js/modules/helpers/gettableclassdef.js",
+    "longname": "src/js/modules/helpers/gettableclassdef.js~getTableClassDef",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/modules/helpers/gettableclassdef.js",
+    "importStyle": "getTableClassDef",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tableName",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 12,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/modules/northwind-table.js",
+    "memberof": null,
+    "longname": "src/js/modules/northwind-table.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": "import \"kendo.grid.js\";\r\nimport getTableWrapperTemplate from './templates/tablewrappertemplate.js';\r\n\r\n\r\nclass Table {\r\n    constructor(props) {\r\n        this.props = props;\r\n        this.currentGrid = this.setupGrid();\r\n        this.wrapperSelector = props.wrapperSelector || \"#tableWrapper\";\r\n        this.el = props.getModel().name;  // el (as in element) terminology is from Backbone.\r\n        this.setupGrid();\r\n    }\r\n\r\n    setupGrid() {\r\n        var that = this;\r\n        const dataSource = this.props.getNewDataSource({ model: that.props.getModel().model, paths: that.props.getModel().paths });\r\n\r\n        var templateData = getTableWrapperTemplate(this.props.getModel().name, this.props.getModel().title || \"Unknown title\");\r\n        var parsedHTML = $.parseHTML(templateData);\r\n\r\n        var $wrapper = $(this.wrapperSelector);\r\n        $wrapper.append(parsedHTML);\r\n        var $el = $wrapper.find(\"#\"  + this.el);\r\n        $el.kendoGrid({\r\n            dataSource: dataSource,\r\n            height: 550,\r\n            groupable: true,\r\n            sortable: true,\r\n            pageable: {\r\n                refresh: true,\r\n                pageSizes: true,\r\n                buttonCount: 5\r\n            },\r\n            columns: that.props.getModel().columns\r\n        });\r\n    }\r\n}\r\n\r\nexport default Table;\r\n"
+  },
+  {
+    "__docId__": 13,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Table",
+    "memberof": "src/js/modules/northwind-table.js",
+    "longname": "src/js/modules/northwind-table.js~Table",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/modules/northwind-table.js",
+    "importStyle": "Table",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 14,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "src/js/modules/northwind-table.js~Table",
+    "longname": "src/js/modules/northwind-table.js~Table#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 15,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "props",
+    "memberof": "src/js/modules/northwind-table.js~Table",
+    "longname": "src/js/modules/northwind-table.js~Table#props",
+    "access": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 16,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "currentGrid",
+    "memberof": "src/js/modules/northwind-table.js~Table",
+    "longname": "src/js/modules/northwind-table.js~Table#currentGrid",
+    "access": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 17,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "wrapperSelector",
+    "memberof": "src/js/modules/northwind-table.js~Table",
+    "longname": "src/js/modules/northwind-table.js~Table#wrapperSelector",
+    "access": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 18,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "el",
+    "memberof": "src/js/modules/northwind-table.js~Table",
+    "longname": "src/js/modules/northwind-table.js~Table#el",
+    "access": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 19,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "setupGrid",
+    "memberof": "src/js/modules/northwind-table.js~Table",
+    "longname": "src/js/modules/northwind-table.js~Table#setupGrid",
+    "access": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 20,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "src/js/modules/templates/tablewrappertemplate.js",
+    "memberof": null,
+    "longname": "src/js/modules/templates/tablewrappertemplate.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 3,
+    "content": "// This function uses ES6 template strings,\r\n// see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings\r\nfunction getTableWrapper(tableId, tableTitle) {\r\n    return `\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">\r\n                <h3 class=\"panel-title\">${tableTitle}</h3>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div id=\"${tableId}\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\r\n            </div>\r\n        </div>\r\n    `;\r\n}\r\n\r\nexport default getTableWrapper;"
+  },
+  {
+    "__docId__": 21,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getTableWrapper",
+    "memberof": "src/js/modules/templates/tablewrappertemplate.js",
+    "longname": "src/js/modules/templates/tablewrappertemplate.js~getTableWrapper",
+    "access": null,
+    "export": true,
+    "importPath": "kendo-webpack-systemjs/src/js/modules/templates/tablewrappertemplate.js",
+    "importStyle": "getTableWrapper",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "tableId",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "tableTitle",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Infinity",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~NaN",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~undefined",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~null",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Symbol",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Error",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~EvalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~InternalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RangeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ReferenceError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~SyntaxError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~TypeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~URIError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Date",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~String",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~string",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RegExp",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 49,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8ClampedArray",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float64Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Map",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Set",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakMap",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 61,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakSet",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ArrayBuffer",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~DataView",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~JSON",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Promise",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Generator",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~GeneratorFunction",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Reflect",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Proxy",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 71,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "CanvasRenderingContext2D",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~CanvasRenderingContext2D",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DocumentFragment",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~DocumentFragment",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Element",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Element",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Element",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Event",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Event",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Node",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Node",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Node",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NodeList",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~NodeList",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "XMLHttpRequest",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~XMLHttpRequest",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "AudioContext",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/AudioContext",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~AudioContext",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  }
+]

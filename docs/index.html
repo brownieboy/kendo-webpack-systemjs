@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">js/models</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTableModel">getTableModel</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTableModel">getTableModel</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">js/modules</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/js/modules/northwind-table.js~Table.html">Table</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">js/modules/data-sources</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getNewDataSource">getNewDataSource</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getNewDataSource">getNewDataSource</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">js/modules/helpers</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTableClassDef">getTableClassDef</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">js/modules/templates</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getTableWrapper">getTableWrapper</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="kendo-webpack-systemjs">kendo-webpack-systemjs</h1>
+<p>Basic boilerplate for using KendoUI Pro with ES6 modules, using Webpack as the module loader and Babel to transpile to ES5.</p>
+<p>In this way, only the parts of Kendo that you&apos;re actually using will be included in your final code, resulting in a huge file size reduction in your final code.  (Yes, you can always create a custom version of Kendo by hand, but do you really want to keep having to so that every time you add a new Kendo feature?  That&apos;s assuming that you even remember to do it, of course!)</p>
+<p>Note: I also intended to include a SystemJS version, but I&apos;ve been unable to get this working with the 2016 versions of Kendo UI.  See <a href="http://www.telerik.com/forums/kendoui-2016-and-systemjs">my bug report</a> for more info on this.</p>
+<p>##Environment
+The code in this repository uses Node/npm to install its dependencies.  Setup instructions are:</p>
+<ol>
+<li>Install <a href="https://nodejs.org/en/download/">Node/npm</a> if you don&apos;t have it already.  For Windows, you&apos;ll also need a bash shell, which you get if you install [Github for Windows] (<a href="https://desktop.github.com/">https://desktop.github.com/</a>) (make sure you tick the box to install the shell).</li>
+<li>In a bash window, git clone this repository.</li>
+<li>cd to the repository folder, then issue <code>npm install</code> to download the dependencies.</li>
+<li>One of those dependencies will be Bower.  You can now use Bower to install Kendo Pro from the official Telerik Bower packages by issuing <code>bower install</code> (or <code>node_modules/.bin/bower install</code> if that fails) at your command prompt.  You will be prompted to your Telerik ID and password at this stage, and may have to enter them twice</li>
+</ol>
+<p>##Development
+To run a development version, issue <code>npm run start</code> at your console to initiate the webpack-dev-server.  Then point your browser to <a href="http://localhost:8080/src/index.html">http://localhost:8080/src/index.html</a>.</p>
+<p>##Build
+To build a standalone(ish) version, issue <code>npm run start</code> at your console.  This will build everything you need to the /build folder.  All HTML, CSS and JS files will be copied into here.  The JS will be minified, and the correct references will be inserted for the <code>&lt;script&gt;</code> tags.  Only jQuery is still standalone.</p>
+<p>You&apos;ll get to two JS files from this build process:</p>
+<ol>
+<li>index.js, which will include your code</li>
+<li>vendor.js, which will include only the parts of KendoUI Pro that you&apos;re using.  This is just over 800Kb in size, as opposed to 2.7Meg for the kendo.all.min.js file.  (That should go down to 300Kb vs 1 Meg when gzipped by your web server).</li>
+</ol>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.5)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

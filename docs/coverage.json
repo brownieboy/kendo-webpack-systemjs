@@ -1,0 +1,56 @@
+{
+  "coverage": "23.07%",
+  "expectCount": 13,
+  "actualCount": 3,
+  "files": {
+    "src/js/modules/northwind-table.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        6,
+        8,
+        10,
+        7,
+        14,
+        9
+      ]
+    },
+    "src/js/modules/data-sources/northwind-customers-datasource.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/js/modules/data-sources/northwind-orders-datasource.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/js/modules/helpers/gettableclassdef.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        25
+      ]
+    },
+    "src/js/models/northwind-customers-model.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/js/models/northwind-orders-model.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/js/modules/templates/tablewrappertemplate.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    }
+  }
+}

@@ -1,13 +1,15 @@
 var gulp = require("gulp");
-var runSequence = require("run-sequence");
+// var runSequence = require("run-sequence");
 var path = require('path');
 var del = require('del');
 var inject = require('gulp-inject');
+var open = require('open');
 var htmlreplace = require('gulp-html-replace');
 var webpack = require("webpack");
 
 var ROOT_PATH = path.resolve(__dirname);
 var CURRENT_FOLDER = path.basename(ROOT_PATH);
+var sublimeServerPort = "8082";
 
 var PATHS = {
     src: {
@@ -20,7 +22,8 @@ var PATHS = {
         css: './build/css',
         fonts: './build/fonts',
         js: "./build/js"
-    }
+    },
+    doco: CURRENT_FOLDER + "/docs/index.html"
 };
 
 //scripts
@@ -53,7 +56,9 @@ gulp.task('copyHTMLAndInjectBuildRefs', function() {
     }
 });
 
+gulp.task('openDoco', function() {
+    open("http://localhost:" + sublimeServerPort + "/" + PATHS.doco);
+});
+
 
 gulp.task('buildAssets', ['copyCSS']);
-
-

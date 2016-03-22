@@ -1,5 +1,9 @@
-//  Customers tables
-const getTableModel = function() {
+//  Northwind Customers Table mmodel
+/**
+* This is getTableModel for Northwind Customers Table
+* @returns {object} the model object for the Northwind Customers Table
+*/
+function getTableModel() {
     return {
         name: "northwind-customers",
         title: "Northwind Customers",
@@ -25,6 +29,6 @@ const getTableModel = function() {
             width: 150
         }]
     };
-};
+}
 
 export default getTableModel;

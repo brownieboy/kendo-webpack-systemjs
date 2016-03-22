@@ -1,0 +1,1019 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "kendo.router.js",
+        "raw": "\"kendo.router.js\"",
+        "range": [
+          33,
+          50
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 7
+          },
+          "end": {
+            "line": 2,
+            "column": 24
+          }
+        }
+      },
+      "range": [
+        26,
+        51
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 25
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": " global $, document ",
+          "range": [
+            0,
+            24
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 24
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "getTableClassDef",
+            "range": [
+              60,
+              76
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 23
+              }
+            }
+          },
+          "range": [
+            60,
+            76
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 23
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./modules/helpers/gettableclassdef.js",
+        "raw": "\"./modules/helpers/gettableclassdef.js\"",
+        "range": [
+          82,
+          121
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 68
+          }
+        }
+      },
+      "range": [
+        53,
+        122
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 69
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "$",
+              "range": [
+                128,
+                129
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 0
+                },
+                "end": {
+                  "line": 6,
+                  "column": 1
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "name": "document",
+                "range": [
+                  130,
+                  138
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 10
+                  }
+                }
+              }
+            ],
+            "range": [
+              128,
+              139
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 11
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "ready",
+            "range": [
+              140,
+              145
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 12
+              },
+              "end": {
+                "line": 6,
+                "column": 17
+              }
+            }
+          },
+          "range": [
+            128,
+            145
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 0
+            },
+            "end": {
+              "line": 6,
+              "column": 17
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "FunctionExpression",
+            "id": null,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "customersTableDef",
+                        "range": [
+                          170,
+                          187
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 10
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 27
+                          }
+                        }
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "getTableClassDef",
+                          "range": [
+                            190,
+                            206
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 7,
+                              "column": 30
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 46
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "northwind-customers",
+                            "raw": "\"northwind-customers\"",
+                            "range": [
+                              207,
+                              228
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 7,
+                                "column": 47
+                              },
+                              "end": {
+                                "line": 7,
+                                "column": 68
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          190,
+                          229
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 30
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 69
+                          }
+                        }
+                      },
+                      "range": [
+                        170,
+                        229
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 10
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 69
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "const",
+                  "range": [
+                    164,
+                    230
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 70
+                    }
+                  }
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "customersTable",
+                        "range": [
+                          242,
+                          256
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 8,
+                            "column": 10
+                          },
+                          "end": {
+                            "line": 8,
+                            "column": 24
+                          }
+                        }
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "name": "customersTableDef",
+                            "range": [
+                              263,
+                              280
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 8,
+                                "column": 31
+                              },
+                              "end": {
+                                "line": 8,
+                                "column": 48
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "TableClass",
+                            "range": [
+                              281,
+                              291
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 8,
+                                "column": 49
+                              },
+                              "end": {
+                                "line": 8,
+                                "column": 59
+                              }
+                            }
+                          },
+                          "range": [
+                            263,
+                            291
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 8,
+                              "column": 31
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 59
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "Identifier",
+                              "name": "customersTableDef",
+                              "range": [
+                                292,
+                                309
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 8,
+                                  "column": 60
+                                },
+                                "end": {
+                                  "line": 8,
+                                  "column": 77
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "props",
+                              "range": [
+                                310,
+                                315
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 8,
+                                  "column": 78
+                                },
+                                "end": {
+                                  "line": 8,
+                                  "column": 83
+                                }
+                              }
+                            },
+                            "range": [
+                              292,
+                              315
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 8,
+                                "column": 60
+                              },
+                              "end": {
+                                "line": 8,
+                                "column": 83
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          259,
+                          316
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 8,
+                            "column": 27
+                          },
+                          "end": {
+                            "line": 8,
+                            "column": 84
+                          }
+                        }
+                      },
+                      "range": [
+                        242,
+                        316
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 10
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 84
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "const",
+                  "range": [
+                    236,
+                    317
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 8,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 8,
+                      "column": 85
+                    }
+                  },
+                  "trailingComments": [
+                    {
+                      "type": "Line",
+                      "value": " eslint-disable-line no-unused-vars",
+                      "range": [
+                        319,
+                        356
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 87
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 124
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "ordersTableDef",
+                        "range": [
+                          368,
+                          382
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 9,
+                            "column": 10
+                          },
+                          "end": {
+                            "line": 9,
+                            "column": 24
+                          }
+                        }
+                      },
+                      "init": {
+                        "type": "CallExpression",
+                        "callee": {
+                          "type": "Identifier",
+                          "name": "getTableClassDef",
+                          "range": [
+                            385,
+                            401
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 9,
+                              "column": 27
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 43
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "Literal",
+                            "value": "northwind-orders",
+                            "raw": "\"northwind-orders\"",
+                            "range": [
+                              402,
+                              420
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 9,
+                                "column": 44
+                              },
+                              "end": {
+                                "line": 9,
+                                "column": 62
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          385,
+                          421
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 9,
+                            "column": 27
+                          },
+                          "end": {
+                            "line": 9,
+                            "column": 63
+                          }
+                        }
+                      },
+                      "range": [
+                        368,
+                        421
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 9,
+                          "column": 10
+                        },
+                        "end": {
+                          "line": 9,
+                          "column": 63
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "const",
+                  "range": [
+                    362,
+                    422
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 64
+                    }
+                  },
+                  "leadingComments": [
+                    {
+                      "type": "Line",
+                      "value": " eslint-disable-line no-unused-vars",
+                      "range": [
+                        319,
+                        356
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 87
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 124
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "VariableDeclaration",
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "id": {
+                        "type": "Identifier",
+                        "name": "ordersTable",
+                        "range": [
+                          434,
+                          445
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 10,
+                            "column": 10
+                          },
+                          "end": {
+                            "line": 10,
+                            "column": 21
+                          }
+                        }
+                      },
+                      "init": {
+                        "type": "NewExpression",
+                        "callee": {
+                          "type": "MemberExpression",
+                          "computed": false,
+                          "object": {
+                            "type": "Identifier",
+                            "name": "ordersTableDef",
+                            "range": [
+                              452,
+                              466
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 28
+                              },
+                              "end": {
+                                "line": 10,
+                                "column": 42
+                              }
+                            }
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "TableClass",
+                            "range": [
+                              467,
+                              477
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 43
+                              },
+                              "end": {
+                                "line": 10,
+                                "column": 53
+                              }
+                            }
+                          },
+                          "range": [
+                            452,
+                            477
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 10,
+                              "column": 28
+                            },
+                            "end": {
+                              "line": 10,
+                              "column": 53
+                            }
+                          }
+                        },
+                        "arguments": [
+                          {
+                            "type": "MemberExpression",
+                            "computed": false,
+                            "object": {
+                              "type": "Identifier",
+                              "name": "ordersTableDef",
+                              "range": [
+                                478,
+                                492
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 10,
+                                  "column": 54
+                                },
+                                "end": {
+                                  "line": 10,
+                                  "column": 68
+                                }
+                              }
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "name": "props",
+                              "range": [
+                                493,
+                                498
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 10,
+                                  "column": 69
+                                },
+                                "end": {
+                                  "line": 10,
+                                  "column": 74
+                                }
+                              }
+                            },
+                            "range": [
+                              478,
+                              498
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 10,
+                                "column": 54
+                              },
+                              "end": {
+                                "line": 10,
+                                "column": 74
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          448,
+                          499
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 10,
+                            "column": 24
+                          },
+                          "end": {
+                            "line": 10,
+                            "column": 75
+                          }
+                        }
+                      },
+                      "range": [
+                        434,
+                        499
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 10
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 75
+                        }
+                      }
+                    }
+                  ],
+                  "kind": "const",
+                  "range": [
+                    428,
+                    500
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 10,
+                      "column": 76
+                    }
+                  },
+                  "trailingComments": [
+                    {
+                      "type": "Line",
+                      "value": " eslint-disable-line no-unused-vars",
+                      "range": [
+                        502,
+                        539
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 78
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 115
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "range": [
+                157,
+                542
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 29
+                },
+                "end": {
+                  "line": 11,
+                  "column": 1
+                }
+              }
+            },
+            "generator": false,
+            "expression": false,
+            "range": [
+              146,
+              542
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 18
+              },
+              "end": {
+                "line": 11,
+                "column": 1
+              }
+            }
+          }
+        ],
+        "range": [
+          128,
+          543
+        ],
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 2
+          }
+        }
+      },
+      "range": [
+        128,
+        544
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    26,
+    544
+  ],
+  "loc": {
+    "start": {
+      "line": 2,
+      "column": 0
+    },
+    "end": {
+      "line": 11,
+      "column": 3
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": " global $, document ",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " eslint-disable-line no-unused-vars",
+      "range": [
+        319,
+        356
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 87
+        },
+        "end": {
+          "line": 8,
+          "column": 124
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " eslint-disable-line no-unused-vars",
+      "range": [
+        502,
+        539
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 78
+        },
+        "end": {
+          "line": 10,
+          "column": 115
+        }
+      }
+    }
+  ]
+}

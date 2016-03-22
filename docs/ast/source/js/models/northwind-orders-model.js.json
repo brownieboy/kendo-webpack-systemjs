@@ -1,0 +1,2273 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "Identifier",
+      "id": {
+        "type": "Identifier",
+        "name": "getTableModel",
+        "range": [
+          179,
+          192
+        ],
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 9
+          },
+          "end": {
+            "line": 6,
+            "column": 22
+          }
+        }
+      },
+      "params": [],
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "argument": {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "name",
+                    "range": [
+                      220,
+                      224
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 8,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 12
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "northwind-orders",
+                    "raw": "\"northwind-orders\"",
+                    "range": [
+                      226,
+                      244
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 8,
+                        "column": 14
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 32
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    220,
+                    244
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 8,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 8,
+                      "column": 32
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "title",
+                    "range": [
+                      255,
+                      260
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 9,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 13
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": "Northwind Orders",
+                    "raw": "\"Northwind Orders\"",
+                    "range": [
+                      262,
+                      280
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 9,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 33
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    255,
+                    280
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 9,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 9,
+                      "column": 33
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "paths",
+                    "range": [
+                      291,
+                      296
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 13
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "ObjectExpression",
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "key": {
+                          "type": "Identifier",
+                          "name": "read",
+                          "range": [
+                            313,
+                            317
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 16
+                            }
+                          }
+                        },
+                        "value": {
+                          "type": "Literal",
+                          "value": "//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders",
+                          "raw": "\"//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders\"",
+                          "range": [
+                            319,
+                            378
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 18
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 77
+                            }
+                          }
+                        },
+                        "kind": "init",
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "range": [
+                          313,
+                          378
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 11,
+                            "column": 12
+                          },
+                          "end": {
+                            "line": 11,
+                            "column": 77
+                          }
+                        }
+                      }
+                    ],
+                    "range": [
+                      298,
+                      389
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    291,
+                    389
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 10,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 9
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "model",
+                    "range": [
+                      400,
+                      405
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 13
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "ObjectExpression",
+                    "properties": [],
+                    "range": [
+                      407,
+                      409
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 15
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    400,
+                    409
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "columns",
+                    "range": [
+                      420,
+                      427
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 15
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "ArrayExpression",
+                    "elements": [
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Literal",
+                              "value": "field",
+                              "raw": "\"field\"",
+                              "range": [
+                                449,
+                                456
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 23
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "OrderID",
+                              "raw": "\"OrderID\"",
+                              "range": [
+                                458,
+                                467
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 25
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 34
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              449,
+                              467
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 15,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 15,
+                                "column": 34
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Literal",
+                              "value": "filterable",
+                              "raw": "\"filterable\"",
+                              "range": [
+                                486,
+                                498
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 28
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": false,
+                              "raw": "false",
+                              "range": [
+                                500,
+                                505
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 30
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 35
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              486,
+                              505
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 16,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 16,
+                                "column": 35
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          430,
+                          520
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 14,
+                            "column": 18
+                          },
+                          "end": {
+                            "line": 17,
+                            "column": 13
+                          }
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "value": "Freight",
+                        "raw": "\"Freight\"",
+                        "range": [
+                          535,
+                          544
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 12
+                          },
+                          "end": {
+                            "line": 18,
+                            "column": 21
+                          }
+                        }
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "field",
+                              "range": [
+                                565,
+                                570
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 19,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 19,
+                                  "column": 21
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "OrderDate",
+                              "raw": "\"OrderDate\"",
+                              "range": [
+                                572,
+                                583
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 19,
+                                  "column": 23
+                                },
+                                "end": {
+                                  "line": 19,
+                                  "column": 34
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              565,
+                              583
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 19,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 19,
+                                "column": 34
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "title",
+                              "range": [
+                                602,
+                                607
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 20,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 20,
+                                  "column": 21
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "Order Date",
+                              "raw": "\"Order Date\"",
+                              "range": [
+                                609,
+                                621
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 20,
+                                  "column": 23
+                                },
+                                "end": {
+                                  "line": 20,
+                                  "column": 35
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              602,
+                              621
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 20,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 20,
+                                "column": 35
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "format",
+                              "range": [
+                                640,
+                                646
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 21,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 21,
+                                  "column": 22
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "{0:MM/dd/yyyy}",
+                              "raw": "\"{0:MM/dd/yyyy}\"",
+                              "range": [
+                                648,
+                                664
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 21,
+                                  "column": 24
+                                },
+                                "end": {
+                                  "line": 21,
+                                  "column": 40
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              640,
+                              664
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 21,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 21,
+                                "column": 40
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          546,
+                          679
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 18,
+                            "column": 23
+                          },
+                          "end": {
+                            "line": 22,
+                            "column": 13
+                          }
+                        }
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "field",
+                              "range": [
+                                700,
+                                705
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 23,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 23,
+                                  "column": 21
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "ShipName",
+                              "raw": "\"ShipName\"",
+                              "range": [
+                                707,
+                                717
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 23,
+                                  "column": 23
+                                },
+                                "end": {
+                                  "line": 23,
+                                  "column": 33
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              700,
+                              717
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 23,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 23,
+                                "column": 33
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "title",
+                              "range": [
+                                736,
+                                741
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 24,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 24,
+                                  "column": 21
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "Ship Name",
+                              "raw": "\"Ship Name\"",
+                              "range": [
+                                743,
+                                754
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 24,
+                                  "column": 23
+                                },
+                                "end": {
+                                  "line": 24,
+                                  "column": 34
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              736,
+                              754
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 24,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 24,
+                                "column": 34
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          681,
+                          769
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 22,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 25,
+                            "column": 13
+                          }
+                        }
+                      },
+                      {
+                        "type": "ObjectExpression",
+                        "properties": [
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "field",
+                              "range": [
+                                790,
+                                795
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 26,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 26,
+                                  "column": 21
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "ShipCity",
+                              "raw": "\"ShipCity\"",
+                              "range": [
+                                797,
+                                807
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 26,
+                                  "column": 23
+                                },
+                                "end": {
+                                  "line": 26,
+                                  "column": 33
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              790,
+                              807
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 26,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 26,
+                                "column": 33
+                              }
+                            }
+                          },
+                          {
+                            "type": "Property",
+                            "key": {
+                              "type": "Identifier",
+                              "name": "title",
+                              "range": [
+                                826,
+                                831
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 27,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 27,
+                                  "column": 21
+                                }
+                              }
+                            },
+                            "value": {
+                              "type": "Literal",
+                              "value": "Ship City",
+                              "raw": "\"Ship City\"",
+                              "range": [
+                                833,
+                                844
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 27,
+                                  "column": 23
+                                },
+                                "end": {
+                                  "line": 27,
+                                  "column": 34
+                                }
+                              }
+                            },
+                            "kind": "init",
+                            "method": false,
+                            "shorthand": false,
+                            "computed": false,
+                            "range": [
+                              826,
+                              844
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 27,
+                                "column": 16
+                              },
+                              "end": {
+                                "line": 27,
+                                "column": 34
+                              }
+                            }
+                          }
+                        ],
+                        "range": [
+                          771,
+                          859
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 25,
+                            "column": 15
+                          },
+                          "end": {
+                            "line": 28,
+                            "column": 13
+                          }
+                        }
+                      }
+                    ],
+                    "range": [
+                      429,
+                      870
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 17
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 9
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    420,
+                    870
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 9
+                    }
+                  }
+                }
+              ],
+              "range": [
+                209,
+                877
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 11
+                },
+                "end": {
+                  "line": 30,
+                  "column": 5
+                }
+              }
+            },
+            "range": [
+              202,
+              878
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 4
+              },
+              "end": {
+                "line": 30,
+                "column": 6
+              }
+            }
+          }
+        ],
+        "range": [
+          195,
+          881
+        ],
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 25
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        }
+      },
+      "generator": false,
+      "expression": false,
+      "range": [
+        170,
+        881
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 1
+        }
+      },
+      "leadingComments": [],
+      "name": "_",
+      "trailingComments": []
+    },
+    {
+      "type": "Identifier",
+      "declaration": {
+        "type": "Identifier",
+        "name": "getTableModel",
+        "range": [
+          900,
+          913
+        ],
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 15
+          },
+          "end": {
+            "line": 33,
+            "column": 28
+          }
+        }
+      },
+      "range": [
+        885,
+        914
+      ],
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 29
+        }
+      },
+      "name": "_",
+      "leadingComments": [],
+      "trailingComments": []
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "getTableModel",
+          "range": [
+            179,
+            192
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 9
+            },
+            "end": {
+              "line": 6,
+              "column": 22
+            }
+          }
+        },
+        "params": [],
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "name",
+                      "range": [
+                        220,
+                        224
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 12
+                        }
+                      }
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "northwind-orders",
+                      "raw": "\"northwind-orders\"",
+                      "range": [
+                        226,
+                        244
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 8,
+                          "column": 14
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 32
+                        }
+                      }
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "range": [
+                      220,
+                      244
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 8,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 32
+                      }
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "title",
+                      "range": [
+                        255,
+                        260
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 9,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 9,
+                          "column": 13
+                        }
+                      }
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "Northwind Orders",
+                      "raw": "\"Northwind Orders\"",
+                      "range": [
+                        262,
+                        280
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 9,
+                          "column": 15
+                        },
+                        "end": {
+                          "line": 9,
+                          "column": 33
+                        }
+                      }
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "range": [
+                      255,
+                      280
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 9,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 33
+                      }
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "paths",
+                      "range": [
+                        291,
+                        296
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 10,
+                          "column": 13
+                        }
+                      }
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "key": {
+                            "type": "Identifier",
+                            "name": "read",
+                            "range": [
+                              313,
+                              317
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 12
+                              },
+                              "end": {
+                                "line": 11,
+                                "column": 16
+                              }
+                            }
+                          },
+                          "value": {
+                            "type": "Literal",
+                            "value": "//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders",
+                            "raw": "\"//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders\"",
+                            "range": [
+                              319,
+                              378
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 11,
+                                "column": 18
+                              },
+                              "end": {
+                                "line": 11,
+                                "column": 77
+                              }
+                            }
+                          },
+                          "kind": "init",
+                          "method": false,
+                          "shorthand": false,
+                          "computed": false,
+                          "range": [
+                            313,
+                            378
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 11,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 77
+                            }
+                          }
+                        }
+                      ],
+                      "range": [
+                        298,
+                        389
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 10,
+                          "column": 15
+                        },
+                        "end": {
+                          "line": 12,
+                          "column": 9
+                        }
+                      }
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "range": [
+                      291,
+                      389
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 10,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 9
+                      }
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "model",
+                      "range": [
+                        400,
+                        405
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 13
+                        }
+                      }
+                    },
+                    "value": {
+                      "type": "ObjectExpression",
+                      "properties": [],
+                      "range": [
+                        407,
+                        409
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 13,
+                          "column": 15
+                        },
+                        "end": {
+                          "line": 13,
+                          "column": 17
+                        }
+                      }
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "range": [
+                      400,
+                      409
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 17
+                      }
+                    }
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "columns",
+                      "range": [
+                        420,
+                        427
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 14,
+                          "column": 8
+                        },
+                        "end": {
+                          "line": 14,
+                          "column": 15
+                        }
+                      }
+                    },
+                    "value": {
+                      "type": "ArrayExpression",
+                      "elements": [
+                        {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Literal",
+                                "value": "field",
+                                "raw": "\"field\"",
+                                "range": [
+                                  449,
+                                  456
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 15,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 15,
+                                    "column": 23
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "OrderID",
+                                "raw": "\"OrderID\"",
+                                "range": [
+                                  458,
+                                  467
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 15,
+                                    "column": 25
+                                  },
+                                  "end": {
+                                    "line": 15,
+                                    "column": 34
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                449,
+                                467
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 34
+                                }
+                              }
+                            },
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Literal",
+                                "value": "filterable",
+                                "raw": "\"filterable\"",
+                                "range": [
+                                  486,
+                                  498
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 16,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 16,
+                                    "column": 28
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": false,
+                                "raw": "false",
+                                "range": [
+                                  500,
+                                  505
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 16,
+                                    "column": 30
+                                  },
+                                  "end": {
+                                    "line": 16,
+                                    "column": 35
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                486,
+                                505
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 16,
+                                  "column": 35
+                                }
+                              }
+                            }
+                          ],
+                          "range": [
+                            430,
+                            520
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 14,
+                              "column": 18
+                            },
+                            "end": {
+                              "line": 17,
+                              "column": 13
+                            }
+                          }
+                        },
+                        {
+                          "type": "Literal",
+                          "value": "Freight",
+                          "raw": "\"Freight\"",
+                          "range": [
+                            535,
+                            544
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 18,
+                              "column": 12
+                            },
+                            "end": {
+                              "line": 18,
+                              "column": 21
+                            }
+                          }
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "field",
+                                "range": [
+                                  565,
+                                  570
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 19,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 19,
+                                    "column": 21
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "OrderDate",
+                                "raw": "\"OrderDate\"",
+                                "range": [
+                                  572,
+                                  583
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 19,
+                                    "column": 23
+                                  },
+                                  "end": {
+                                    "line": 19,
+                                    "column": 34
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                565,
+                                583
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 19,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 19,
+                                  "column": 34
+                                }
+                              }
+                            },
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "title",
+                                "range": [
+                                  602,
+                                  607
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 20,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 20,
+                                    "column": 21
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "Order Date",
+                                "raw": "\"Order Date\"",
+                                "range": [
+                                  609,
+                                  621
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 20,
+                                    "column": 23
+                                  },
+                                  "end": {
+                                    "line": 20,
+                                    "column": 35
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                602,
+                                621
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 20,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 20,
+                                  "column": 35
+                                }
+                              }
+                            },
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "format",
+                                "range": [
+                                  640,
+                                  646
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 21,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 21,
+                                    "column": 22
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "{0:MM/dd/yyyy}",
+                                "raw": "\"{0:MM/dd/yyyy}\"",
+                                "range": [
+                                  648,
+                                  664
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 21,
+                                    "column": 24
+                                  },
+                                  "end": {
+                                    "line": 21,
+                                    "column": 40
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                640,
+                                664
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 21,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 21,
+                                  "column": 40
+                                }
+                              }
+                            }
+                          ],
+                          "range": [
+                            546,
+                            679
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 18,
+                              "column": 23
+                            },
+                            "end": {
+                              "line": 22,
+                              "column": 13
+                            }
+                          }
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "field",
+                                "range": [
+                                  700,
+                                  705
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 23,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 23,
+                                    "column": 21
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "ShipName",
+                                "raw": "\"ShipName\"",
+                                "range": [
+                                  707,
+                                  717
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 23,
+                                    "column": 23
+                                  },
+                                  "end": {
+                                    "line": 23,
+                                    "column": 33
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                700,
+                                717
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 23,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 23,
+                                  "column": 33
+                                }
+                              }
+                            },
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "title",
+                                "range": [
+                                  736,
+                                  741
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 24,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 24,
+                                    "column": 21
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "Ship Name",
+                                "raw": "\"Ship Name\"",
+                                "range": [
+                                  743,
+                                  754
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 24,
+                                    "column": 23
+                                  },
+                                  "end": {
+                                    "line": 24,
+                                    "column": 34
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                736,
+                                754
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 24,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 24,
+                                  "column": 34
+                                }
+                              }
+                            }
+                          ],
+                          "range": [
+                            681,
+                            769
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 22,
+                              "column": 15
+                            },
+                            "end": {
+                              "line": 25,
+                              "column": 13
+                            }
+                          }
+                        },
+                        {
+                          "type": "ObjectExpression",
+                          "properties": [
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "field",
+                                "range": [
+                                  790,
+                                  795
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 26,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 26,
+                                    "column": 21
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "ShipCity",
+                                "raw": "\"ShipCity\"",
+                                "range": [
+                                  797,
+                                  807
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 26,
+                                    "column": 23
+                                  },
+                                  "end": {
+                                    "line": 26,
+                                    "column": 33
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                790,
+                                807
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 26,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 26,
+                                  "column": 33
+                                }
+                              }
+                            },
+                            {
+                              "type": "Property",
+                              "key": {
+                                "type": "Identifier",
+                                "name": "title",
+                                "range": [
+                                  826,
+                                  831
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 27,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 27,
+                                    "column": 21
+                                  }
+                                }
+                              },
+                              "value": {
+                                "type": "Literal",
+                                "value": "Ship City",
+                                "raw": "\"Ship City\"",
+                                "range": [
+                                  833,
+                                  844
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 27,
+                                    "column": 23
+                                  },
+                                  "end": {
+                                    "line": 27,
+                                    "column": 34
+                                  }
+                                }
+                              },
+                              "kind": "init",
+                              "method": false,
+                              "shorthand": false,
+                              "computed": false,
+                              "range": [
+                                826,
+                                844
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 27,
+                                  "column": 16
+                                },
+                                "end": {
+                                  "line": 27,
+                                  "column": 34
+                                }
+                              }
+                            }
+                          ],
+                          "range": [
+                            771,
+                            859
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 25,
+                              "column": 15
+                            },
+                            "end": {
+                              "line": 28,
+                              "column": 13
+                            }
+                          }
+                        }
+                      ],
+                      "range": [
+                        429,
+                        870
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 14,
+                          "column": 17
+                        },
+                        "end": {
+                          "line": 29,
+                          "column": 9
+                        }
+                      }
+                    },
+                    "kind": "init",
+                    "method": false,
+                    "shorthand": false,
+                    "computed": false,
+                    "range": [
+                      420,
+                      870
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 29,
+                        "column": 9
+                      }
+                    }
+                  }
+                ],
+                "range": [
+                  209,
+                  877
+                ],
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 5
+                  }
+                }
+              },
+              "range": [
+                202,
+                878
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 4
+                },
+                "end": {
+                  "line": 30,
+                  "column": 6
+                }
+              }
+            }
+          ],
+          "range": [
+            195,
+            881
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 31,
+              "column": 1
+            }
+          }
+        },
+        "generator": false,
+        "expression": false,
+        "range": [
+          170,
+          881
+        ],
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Line",
+            "value": "  Northwind Orders Table model",
+            "range": [
+              0,
+              32
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 32
+              }
+            }
+          },
+          {
+            "type": "Block",
+            "value": "*\r\n * This is getTableModel for Northwind Orders Table\r\n * @returns {object} the model object for the Northwind Customers Table\r\n ",
+            "range": [
+              34,
+              168
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "range": [
+        885,
+        914
+      ],
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 29
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    170,
+    914
+  ],
+  "loc": {
+    "start": {
+      "line": 6,
+      "column": 0
+    },
+    "end": {
+      "line": 33,
+      "column": 29
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": "  Northwind Orders Table model",
+      "range": [
+        0,
+        32
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\r\n * This is getTableModel for Northwind Orders Table\r\n * @returns {object} the model object for the Northwind Customers Table\r\n ",
+      "range": [
+        34,
+        168
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    }
+  ]
+}
