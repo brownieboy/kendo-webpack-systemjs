@@ -3,7 +3,7 @@ Basic boilerplate for using KendoUI Pro with ES6 modules, using Webpack as the m
 
 In this way, only the parts of Kendo that you're actually using will be included in your final code, resulting in a huge file size reduction in your final code.  (Yes, you can always create a custom version of Kendo by hand, but do you really want to keep having to so that every time you add a new Kendo feature?  That's assuming that you even remember to do it, of course!)
 
-Also includes a SystemJS version.  Open the file /src/index-systemjs.html in a local web server to see this version.
+
 
 
 ##Environment
@@ -16,7 +16,7 @@ The code in this repository uses Node/npm to install its dependencies.  Setup in
 
 
 ##Development
-To run a development version, issue `npm run start` at your console to initiate the webpack-dev-server.  Then point your browser to http://localhost:8080/src/index.html.
+To run the Webpack development version, issue `npm run start` at your console to initiate the webpack-dev-server.  Then point your browser to http://localhost:8080/src/index.html.
 
 
 ##Build
@@ -28,6 +28,9 @@ You'll get to two JS files from this build process:
 1. vendor.js, which will include only the parts of KendoUI Pro that you're using.  This is just over 800Kb in size, as opposed to 2.7Meg for the kendo.all.min.js file.  (That should go down to 300Kb vs 1 Meg when gzipped by your web server).
 
 
+##SystemJS Version
+I've also include a SystemJS version.
 
+SystemsJS loads up the module files on the fly, so there is no build step.  Simply open the file /src/index-systemjs.html in a local web server to see this version.  If you refresh the page with your browser's Developer Toosl open, set to the Network tab, then you can see the files loading.
 
-
+Using SystemsJS to load your modules in this way can be a slow process, as it loads each module file, one at a time.  You won't notice too much on a small, test project like this one, but it can be slow enough to make it unusable for bigger projects.

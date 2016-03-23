@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Webpack Kendoui Test</title>
+    <title>SystemJS KendoUI Test</title>
     <link rel="stylesheet" href="./css/libs/bootstrap.min.css" />
     <link href="./css/libs/kendo/kendo.common.min.css" rel="stylesheet" type="text/css" />
     <link href="./css/libs/kendo/kendo.bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -16,14 +16,13 @@
     </div>
     <script src=" ../node_modules/jquery/dist/jquery.min.js "></script>
     <script src="../node_modules/systemjs/dist/system.js"></script>
-
     <script>
     System.config({
         defaultJSExtensions: true,
         paths: {
             // 'kendo-ui/src/js/': "../bower_components/kendo-ui/src/js/"
             "kendo.*": "../bower_components/kendo-ui/src/js/kendo.*"
-            },
+        },
         transpiler: "plugin-babel",
         map: {
             "plugin-babel": "../node_modules/systemjs-plugin-babel/plugin-babel.js",

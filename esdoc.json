@@ -1,5 +1,4 @@
 {
     "source": "./src",
-    "destination": "./docs",
-    "excludes": ["./src/systemjs-babel-browser.js"]
-}
+    "destination": "./docs"
+ }
