@@ -1,7 +1,7 @@
-//  Northwind Customers Table mmodel
+//  Northwind Customers Table model
 /**
 * This is getTableModel for Northwind Customers Table
-* @returns {object} the model object for the Northwind Customers Table
+* @retur {object} the model object for the Northwind Customers Table
 */
 function getTableModel() {
     return {
@@ -12,7 +12,7 @@ function getTableModel() {
         },
         model: {},
         columns: [{
-            template: "<div class='customer-photo'ß" +
+            template: "<div class='customer-photo'" +
                 "style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>" +
                 "<div class='customer-name'>#: ContactName #</div>",
             field: "ContactName",

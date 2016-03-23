@@ -1,5 +1,5 @@
 import "kendo.grid.js";
-import getTableWrapperTemplate from './templates/tablewrappertemplate.js';
+import getTableWrapperTemplate from "./templates/tablewrappertemplate.js";
 
 
 class Table {

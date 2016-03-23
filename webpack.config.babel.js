@@ -18,7 +18,7 @@ var exportModule = {};
 
 const common = {
     entry: {
-        app: path.resolve(ROOT_PATH) + "/" + PATHS.srcjs + "/index.js"
+        index: path.resolve(ROOT_PATH) + "/" + PATHS.srcjs + "/index.js"
     },
     resolve: {
         // Hard-coded path to kendo src files is only necessary due to this
@@ -53,6 +53,7 @@ const common = {
 
 
 if (TARGET === "buildwp") {
+    console.log("running buildwp");
     // Includes minification, so slow build times and smaller files.  Use for final build to prod only.
     exportModule = merge(common, {
         output: {
@@ -68,7 +69,8 @@ if (TARGET === "buildwp") {
                 compress: {
                     warnings: false
                 }
-            })
+            }),
+            new webpack.optimize.DedupePlugin()
         ]
     });
 }
