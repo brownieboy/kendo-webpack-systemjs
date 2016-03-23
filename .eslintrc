@@ -9,6 +9,10 @@
     "extends": "eslint",
     "rules": {
         "semi": 2,
-        "indent": "off"
+        "valid-jsdoc": [2, {
+            "prefer": {
+                "return": "return"
+            }
+        }]
     }
 }
