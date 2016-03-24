@@ -33,4 +33,8 @@ I've also include a SystemJS version.
 
 SystemsJS loads up the module files on the fly, so there is no build step.  Simply open the file /src/index-systemjs.html in a local web server to see this version.  If you refresh the page with your browser's Developer Toosl open, set to the Network tab, then you can see the files loading.
 
-Using SystemsJS to load your modules in this way can be a slow process, as it loads each module file, one at a time.  You won't notice too much on a small, test project like this one, but it can be slow enough to make it unusable for bigger projects.
+Using SystemsJS to load your modules in this way can be a slow process, as it loads up each module file, one at a time (unlike Webpack, which combines them into one or two bigger files, ahead of time).  You won't notice too much on a small, test project like this one, but I've found it to be slow enough to make it unusable for bigger projects.  Any advice on how to approach this problem would be most welcome!
+
+One way to cut down on the file loading times would be to point SystemJS to the minified versions of the Kendo libraries rather than at the source versions, which Webpack prefers.  However, in addition to being in separate folders (not a problem), the different file types also follow different naming conventions: .e.g  kendo.core.min.js vs kendo.core.js.  Unfortunately, I couldn't find a way to get SystemJS to do an on-the-fly substitution of kendo.*.min.js for kendo.*.js.  Nor could I find a way to have Webpack do the reverse.  I didn't want to maintain two separate code bases just for this boilerplate demo, so both systems are loading the source versions at present.  If anybody _does_ know a way of doing this, please let me know!!
+
+
