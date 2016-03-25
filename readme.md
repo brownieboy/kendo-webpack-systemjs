@@ -20,12 +20,18 @@ To run the Webpack development version, issue `npm run start` at your console to
 
 
 ##Build
-To build a standalone(ish) version, issue `npm run start` at your console.  This will build everything you need to the /build folder.  All HTML, CSS and JS files will be copied into here.  The JS will be minified, and the correct references will be inserted for the `<script>` tags.  Only jQuery is still standalone.
+To build a standalone(ish) version using Webpack, issue `npm run start` at your console.  This will build everything you need to the /build folder.  All HTML, CSS and JS files will be copied into here.  The JS will be minified, and the correct references will be inserted for the `<script>` tags.  Only jQuery is still standalone.
 
 You'll get to two JS files from this build process:
 
 1. index.js, which will include your code
 1. vendor.js, which will include only the parts of KendoUI Pro that you're using.  This is just over 800Kb in size, as opposed to 2.7Meg for the kendo.all.min.js file.  (That should go down to 300Kb vs 1 Meg when gzipped by your web server).
+
+The build process uses Gulp task runner, which runs tasks to:
+
+1. Clear out the current contents of the /build folder
+1. Copy over necessary HTML and CSS files from the /src folder to the /build folder
+1. Remove the development script tags and replace them with new ones pointing to the build JS files, which are created by Webpack.
 
 
 ##SystemJS Version
