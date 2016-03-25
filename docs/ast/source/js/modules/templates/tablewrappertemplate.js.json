@@ -7,16 +7,16 @@
         "type": "Identifier",
         "name": "getTableWrapper",
         "range": [
-          142,
-          157
+          567,
+          582
         ],
         "loc": {
           "start": {
-            "line": 3,
+            "line": 10,
             "column": 9
           },
           "end": {
-            "line": 3,
+            "line": 10,
             "column": 24
           }
         }
@@ -26,16 +26,16 @@
           "type": "Identifier",
           "name": "tableId",
           "range": [
-            158,
-            165
+            583,
+            590
           ],
           "loc": {
             "start": {
-              "line": 3,
+              "line": 10,
               "column": 25
             },
             "end": {
-              "line": 3,
+              "line": 10,
               "column": 32
             }
           }
@@ -44,16 +44,16 @@
           "type": "Identifier",
           "name": "tableTitle",
           "range": [
-            167,
-            177
+            592,
+            602
           ],
           "loc": {
             "start": {
-              "line": 3,
+              "line": 10,
               "column": 34
             },
             "end": {
-              "line": 3,
+              "line": 10,
               "column": 44
             }
           }
@@ -70,21 +70,21 @@
                 {
                   "type": "TemplateElement",
                   "value": {
-                    "raw": "\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">\r\n                <h3 class=\"panel-title\">",
+                    "raw": "\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">",
                     "cooked": "\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">"
                   },
                   "tail": false,
                   "range": [
-                    193,
-                    322
+                    617,
+                    743
                   ],
                   "loc": {
                     "start": {
-                      "line": 4,
+                      "line": 11,
                       "column": 11
                     },
                     "end": {
-                      "line": 7,
+                      "line": 14,
                       "column": 42
                     }
                   }
@@ -92,21 +92,21 @@
                 {
                   "type": "TemplateElement",
                   "value": {
-                    "raw": "</h3>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div id=\"",
+                    "raw": "</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\"",
                     "cooked": "</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\""
                   },
                   "tail": false,
                   "range": [
-                    332,
-                    425
+                    753,
+                    843
                   ],
                   "loc": {
                     "start": {
-                      "line": 7,
+                      "line": 14,
                       "column": 52
                     },
                     "end": {
-                      "line": 10,
+                      "line": 17,
                       "column": 27
                     }
                   }
@@ -114,21 +114,21 @@
                 {
                   "type": "TemplateElement",
                   "value": {
-                    "raw": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\r\n            </div>\r\n        </div>\r\n    ",
+                    "raw": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    ",
                     "cooked": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    "
                   },
                   "tail": true,
                   "range": [
-                    432,
-                    536
+                    850,
+                    951
                   ],
                   "loc": {
                     "start": {
-                      "line": 10,
+                      "line": 17,
                       "column": 34
                     },
                     "end": {
-                      "line": 13,
+                      "line": 20,
                       "column": 5
                     }
                   }
@@ -139,16 +139,16 @@
                   "type": "Identifier",
                   "name": "tableTitle",
                   "range": [
-                    322,
-                    332
+                    743,
+                    753
                   ],
                   "loc": {
                     "start": {
-                      "line": 7,
+                      "line": 14,
                       "column": 42
                     },
                     "end": {
-                      "line": 7,
+                      "line": 14,
                       "column": 52
                     }
                   }
@@ -157,63 +157,63 @@
                   "type": "Identifier",
                   "name": "tableId",
                   "range": [
-                    425,
-                    432
+                    843,
+                    850
                   ],
                   "loc": {
                     "start": {
-                      "line": 10,
+                      "line": 17,
                       "column": 27
                     },
                     "end": {
-                      "line": 10,
+                      "line": 17,
                       "column": 34
                     }
                   }
                 }
               ],
               "range": [
-                193,
-                536
+                617,
+                951
               ],
               "loc": {
                 "start": {
-                  "line": 4,
+                  "line": 11,
                   "column": 11
                 },
                 "end": {
-                  "line": 13,
+                  "line": 20,
                   "column": 5
                 }
               }
             },
             "range": [
-              186,
-              537
+              610,
+              952
             ],
             "loc": {
               "start": {
-                "line": 4,
+                "line": 11,
                 "column": 4
               },
               "end": {
-                "line": 13,
+                "line": 20,
                 "column": 6
               }
             }
           }
         ],
         "range": [
-          179,
-          540
+          604,
+          954
         ],
         "loc": {
           "start": {
-            "line": 3,
+            "line": 10,
             "column": 46
           },
           "end": {
-            "line": 14,
+            "line": 21,
             "column": 1
           }
         }
@@ -221,16 +221,16 @@
       "generator": false,
       "expression": false,
       "range": [
-        133,
-        540
+        558,
+        954
       ],
       "loc": {
         "start": {
-          "line": 3,
+          "line": 10,
           "column": 0
         },
         "end": {
-          "line": 14,
+          "line": 21,
           "column": 1
         }
       },
@@ -244,31 +244,31 @@
         "type": "Identifier",
         "name": "getTableWrapper",
         "range": [
-          559,
-          574
+          971,
+          986
         ],
         "loc": {
           "start": {
-            "line": 16,
+            "line": 23,
             "column": 15
           },
           "end": {
-            "line": 16,
+            "line": 23,
             "column": 30
           }
         }
       },
       "range": [
-        544,
-        575
+        956,
+        987
       ],
       "loc": {
         "start": {
-          "line": 16,
+          "line": 23,
           "column": 0
         },
         "end": {
-          "line": 16,
+          "line": 23,
           "column": 31
         }
       },
@@ -284,16 +284,16 @@
           "type": "Identifier",
           "name": "getTableWrapper",
           "range": [
-            142,
-            157
+            567,
+            582
           ],
           "loc": {
             "start": {
-              "line": 3,
+              "line": 10,
               "column": 9
             },
             "end": {
-              "line": 3,
+              "line": 10,
               "column": 24
             }
           }
@@ -303,16 +303,16 @@
             "type": "Identifier",
             "name": "tableId",
             "range": [
-              158,
-              165
+              583,
+              590
             ],
             "loc": {
               "start": {
-                "line": 3,
+                "line": 10,
                 "column": 25
               },
               "end": {
-                "line": 3,
+                "line": 10,
                 "column": 32
               }
             }
@@ -321,16 +321,16 @@
             "type": "Identifier",
             "name": "tableTitle",
             "range": [
-              167,
-              177
+              592,
+              602
             ],
             "loc": {
               "start": {
-                "line": 3,
+                "line": 10,
                 "column": 34
               },
               "end": {
-                "line": 3,
+                "line": 10,
                 "column": 44
               }
             }
@@ -347,21 +347,21 @@
                   {
                     "type": "TemplateElement",
                     "value": {
-                      "raw": "\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">\r\n                <h3 class=\"panel-title\">",
+                      "raw": "\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">",
                       "cooked": "\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">"
                     },
                     "tail": false,
                     "range": [
-                      193,
-                      322
+                      617,
+                      743
                     ],
                     "loc": {
                       "start": {
-                        "line": 4,
+                        "line": 11,
                         "column": 11
                       },
                       "end": {
-                        "line": 7,
+                        "line": 14,
                         "column": 42
                       }
                     }
@@ -369,21 +369,21 @@
                   {
                     "type": "TemplateElement",
                     "value": {
-                      "raw": "</h3>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div id=\"",
+                      "raw": "</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\"",
                       "cooked": "</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\""
                     },
                     "tail": false,
                     "range": [
-                      332,
-                      425
+                      753,
+                      843
                     ],
                     "loc": {
                       "start": {
-                        "line": 7,
+                        "line": 14,
                         "column": 52
                       },
                       "end": {
-                        "line": 10,
+                        "line": 17,
                         "column": 27
                       }
                     }
@@ -391,21 +391,21 @@
                   {
                     "type": "TemplateElement",
                     "value": {
-                      "raw": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\r\n            </div>\r\n        </div>\r\n    ",
+                      "raw": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    ",
                       "cooked": "\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    "
                     },
                     "tail": true,
                     "range": [
-                      432,
-                      536
+                      850,
+                      951
                     ],
                     "loc": {
                       "start": {
-                        "line": 10,
+                        "line": 17,
                         "column": 34
                       },
                       "end": {
-                        "line": 13,
+                        "line": 20,
                         "column": 5
                       }
                     }
@@ -416,16 +416,16 @@
                     "type": "Identifier",
                     "name": "tableTitle",
                     "range": [
-                      322,
-                      332
+                      743,
+                      753
                     ],
                     "loc": {
                       "start": {
-                        "line": 7,
+                        "line": 14,
                         "column": 42
                       },
                       "end": {
-                        "line": 7,
+                        "line": 14,
                         "column": 52
                       }
                     }
@@ -434,63 +434,63 @@
                     "type": "Identifier",
                     "name": "tableId",
                     "range": [
-                      425,
-                      432
+                      843,
+                      850
                     ],
                     "loc": {
                       "start": {
-                        "line": 10,
+                        "line": 17,
                         "column": 27
                       },
                       "end": {
-                        "line": 10,
+                        "line": 17,
                         "column": 34
                       }
                     }
                   }
                 ],
                 "range": [
-                  193,
-                  536
+                  617,
+                  951
                 ],
                 "loc": {
                   "start": {
-                    "line": 4,
+                    "line": 11,
                     "column": 11
                   },
                   "end": {
-                    "line": 13,
+                    "line": 20,
                     "column": 5
                   }
                 }
               },
               "range": [
-                186,
-                537
+                610,
+                952
               ],
               "loc": {
                 "start": {
-                  "line": 4,
+                  "line": 11,
                   "column": 4
                 },
                 "end": {
-                  "line": 13,
+                  "line": 20,
                   "column": 6
                 }
               }
             }
           ],
           "range": [
-            179,
-            540
+            604,
+            954
           ],
           "loc": {
             "start": {
-              "line": 3,
+              "line": 10,
               "column": 46
             },
             "end": {
-              "line": 14,
+              "line": 21,
               "column": 1
             }
           }
@@ -498,16 +498,16 @@
         "generator": false,
         "expression": false,
         "range": [
-          133,
-          540
+          558,
+          954
         ],
         "loc": {
           "start": {
-            "line": 3,
+            "line": 10,
             "column": 0
           },
           "end": {
-            "line": 14,
+            "line": 21,
             "column": 1
           }
         },
@@ -534,8 +534,8 @@
             "type": "Line",
             "value": " see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings",
             "range": [
-              45,
-              131
+              44,
+              130
             ],
             "loc": {
               "start": {
@@ -547,21 +547,39 @@
                 "column": 86
               }
             }
+          },
+          {
+            "type": "Block",
+            "value": "*\n * Template for HTML that goes around an Kendo Grid table.  Note that this module actually exports the getTableWrapper function itself.  This must then be called externally to get the template text.\n * @param  {string} tableId     id if the table, will be used as its html id\n * @param  {String} tableTitle Title to be displayed in the panel-heading\n * @return {string} the text of the template with values filled in.\n ",
+            "range": [
+              132,
+              557
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+                "column": 3
+              }
+            }
           }
         ],
         "trailingComments": []
       },
       "range": [
-        544,
-        575
+        956,
+        987
       ],
       "loc": {
         "start": {
-          "line": 16,
+          "line": 23,
           "column": 0
         },
         "end": {
-          "line": 16,
+          "line": 23,
           "column": 31
         }
       }
@@ -569,16 +587,16 @@
   ],
   "sourceType": "module",
   "range": [
-    133,
-    575
+    558,
+    987
   ],
   "loc": {
     "start": {
-      "line": 3,
+      "line": 10,
       "column": 0
     },
     "end": {
-      "line": 16,
+      "line": 23,
       "column": 31
     }
   },
@@ -605,8 +623,8 @@
       "type": "Line",
       "value": " see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings",
       "range": [
-        45,
-        131
+        44,
+        130
       ],
       "loc": {
         "start": {
@@ -616,6 +634,24 @@
         "end": {
           "line": 2,
           "column": 86
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * Template for HTML that goes around an Kendo Grid table.  Note that this module actually exports the getTableWrapper function itself.  This must then be called externally to get the template text.\n * @param  {string} tableId     id if the table, will be used as its html id\n * @param  {String} tableTitle Title to be displayed in the panel-heading\n * @return {string} the text of the template with values filled in.\n ",
+      "range": [
+        132,
+        557
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
         }
       }
     }

@@ -43,7 +43,7 @@
       "source": {
         "type": "Literal",
         "value": "../../modules/northwind-table.js",
-        "raw": "'../../modules/northwind-table.js'",
+        "raw": "\"../../modules/northwind-table.js\"",
         "range": [
           27,
           61
@@ -83,8 +83,8 @@
             "type": "Identifier",
             "name": "getNorthwindCustomersModel",
             "range": [
-              71,
-              97
+              70,
+              96
             ],
             "loc": {
               "start": {
@@ -98,8 +98,8 @@
             }
           },
           "range": [
-            71,
-            97
+            70,
+            96
           ],
           "loc": {
             "start": {
@@ -116,10 +116,10 @@
       "source": {
         "type": "Literal",
         "value": "../../models/northwind-customers-model.js",
-        "raw": "'../../models/northwind-customers-model.js'",
+        "raw": "\"../../models/northwind-customers-model.js\"",
         "range": [
-          103,
-          146
+          102,
+          145
         ],
         "loc": {
           "start": {
@@ -133,8 +133,8 @@
         }
       },
       "range": [
-        64,
-        147
+        63,
+        146
       ],
       "loc": {
         "start": {
@@ -156,8 +156,8 @@
             "type": "Identifier",
             "name": "getNorthwindCustomersDataSource",
             "range": [
-              156,
-              187
+              154,
+              185
             ],
             "loc": {
               "start": {
@@ -171,8 +171,8 @@
             }
           },
           "range": [
-            156,
-            187
+            154,
+            185
           ],
           "loc": {
             "start": {
@@ -189,10 +189,10 @@
       "source": {
         "type": "Literal",
         "value": "../data-sources/northwind-customers-datasource.js",
-        "raw": "'../data-sources/northwind-customers-datasource.js'",
+        "raw": "\"../data-sources/northwind-customers-datasource.js\"",
         "range": [
-          193,
-          244
+          191,
+          242
         ],
         "loc": {
           "start": {
@@ -206,8 +206,8 @@
         }
       },
       "range": [
-        149,
-        245
+        147,
+        243
       ],
       "loc": {
         "start": {
@@ -229,8 +229,8 @@
             "type": "Identifier",
             "name": "getNorthwindOrdersModel",
             "range": [
-              254,
-              277
+              251,
+              274
             ],
             "loc": {
               "start": {
@@ -244,8 +244,8 @@
             }
           },
           "range": [
-            254,
-            277
+            251,
+            274
           ],
           "loc": {
             "start": {
@@ -262,10 +262,10 @@
       "source": {
         "type": "Literal",
         "value": "../../models/northwind-orders-model.js",
-        "raw": "'../../models/northwind-orders-model.js'",
+        "raw": "\"../../models/northwind-orders-model.js\"",
         "range": [
-          283,
-          323
+          280,
+          320
         ],
         "loc": {
           "start": {
@@ -279,8 +279,8 @@
         }
       },
       "range": [
-        247,
-        324
+        244,
+        321
       ],
       "loc": {
         "start": {
@@ -302,8 +302,8 @@
             "type": "Identifier",
             "name": "getNorthwindOrdersDataSource",
             "range": [
-              333,
-              361
+              329,
+              357
             ],
             "loc": {
               "start": {
@@ -317,8 +317,8 @@
             }
           },
           "range": [
-            333,
-            361
+            329,
+            357
           ],
           "loc": {
             "start": {
@@ -335,10 +335,10 @@
       "source": {
         "type": "Literal",
         "value": "../data-sources/northwind-orders-datasource.js",
-        "raw": "'../data-sources/northwind-orders-datasource.js'",
+        "raw": "\"../data-sources/northwind-orders-datasource.js\"",
         "range": [
-          367,
-          415
+          363,
+          411
         ],
         "loc": {
           "start": {
@@ -352,8 +352,8 @@
         }
       },
       "range": [
-        326,
-        416
+        322,
+        412
       ],
       "loc": {
         "start": {
@@ -375,8 +375,8 @@
             "type": "Identifier",
             "name": "allTableClassesObject",
             "range": [
-              428,
-              449
+              421,
+              442
             ],
             "loc": {
               "start": {
@@ -399,8 +399,8 @@
                   "value": "northwind-customers",
                   "raw": "\"northwind-customers\"",
                   "range": [
-                    459,
-                    480
+                    451,
+                    472
                   ],
                   "loc": {
                     "start": {
@@ -422,8 +422,8 @@
                         "type": "Identifier",
                         "name": "TableClass",
                         "range": [
-                          493,
-                          503
+                          484,
+                          494
                         ],
                         "loc": {
                           "start": {
@@ -440,8 +440,8 @@
                         "type": "Identifier",
                         "name": "NorthwindTable",
                         "range": [
-                          505,
-                          519
+                          496,
+                          510
                         ],
                         "loc": {
                           "start": {
@@ -459,8 +459,8 @@
                       "shorthand": false,
                       "computed": false,
                       "range": [
-                        493,
-                        519
+                        484,
+                        510
                       ],
                       "loc": {
                         "start": {
@@ -479,8 +479,8 @@
                         "type": "Identifier",
                         "name": "props",
                         "range": [
-                          530,
-                          535
+                          520,
+                          525
                         ],
                         "loc": {
                           "start": {
@@ -502,8 +502,8 @@
                               "type": "Identifier",
                               "name": "getModel",
                               "range": [
-                                552,
-                                560
+                                541,
+                                549
                               ],
                               "loc": {
                                 "start": {
@@ -520,8 +520,8 @@
                               "type": "Identifier",
                               "name": "getNorthwindCustomersModel",
                               "range": [
-                                562,
-                                588
+                                551,
+                                577
                               ],
                               "loc": {
                                 "start": {
@@ -539,8 +539,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              552,
-                              588
+                              541,
+                              577
                             ],
                             "loc": {
                               "start": {
@@ -559,8 +559,8 @@
                               "type": "Identifier",
                               "name": "getNewDataSource",
                               "range": [
-                                603,
-                                619
+                                591,
+                                607
                               ],
                               "loc": {
                                 "start": {
@@ -577,8 +577,8 @@
                               "type": "Identifier",
                               "name": "getNorthwindCustomersDataSource",
                               "range": [
-                                621,
-                                652
+                                609,
+                                640
                               ],
                               "loc": {
                                 "start": {
@@ -596,8 +596,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              603,
-                              652
+                              591,
+                              640
                             ],
                             "loc": {
                               "start": {
@@ -612,8 +612,8 @@
                           }
                         ],
                         "range": [
-                          537,
-                          663
+                          527,
+                          650
                         ],
                         "loc": {
                           "start": {
@@ -631,8 +631,8 @@
                       "shorthand": false,
                       "computed": false,
                       "range": [
-                        530,
-                        663
+                        520,
+                        650
                       ],
                       "loc": {
                         "start": {
@@ -647,8 +647,8 @@
                     }
                   ],
                   "range": [
-                    482,
-                    670
+                    474,
+                    656
                   ],
                   "loc": {
                     "start": {
@@ -666,8 +666,8 @@
                 "shorthand": false,
                 "computed": false,
                 "range": [
-                  459,
-                  670
+                  451,
+                  656
                 ],
                 "loc": {
                   "start": {
@@ -687,8 +687,8 @@
                   "value": "northwind-orders",
                   "raw": "\"northwind-orders\"",
                   "range": [
-                    677,
-                    695
+                    662,
+                    680
                   ],
                   "loc": {
                     "start": {
@@ -710,8 +710,8 @@
                         "type": "Identifier",
                         "name": "TableClass",
                         "range": [
-                          708,
-                          718
+                          692,
+                          702
                         ],
                         "loc": {
                           "start": {
@@ -728,8 +728,8 @@
                         "type": "Identifier",
                         "name": "NorthwindTable",
                         "range": [
-                          720,
-                          734
+                          704,
+                          718
                         ],
                         "loc": {
                           "start": {
@@ -747,8 +747,8 @@
                       "shorthand": false,
                       "computed": false,
                       "range": [
-                        708,
-                        734
+                        692,
+                        718
                       ],
                       "loc": {
                         "start": {
@@ -767,8 +767,8 @@
                         "type": "Identifier",
                         "name": "props",
                         "range": [
-                          745,
-                          750
+                          728,
+                          733
                         ],
                         "loc": {
                           "start": {
@@ -790,8 +790,8 @@
                               "type": "Identifier",
                               "name": "getModel",
                               "range": [
-                                767,
-                                775
+                                749,
+                                757
                               ],
                               "loc": {
                                 "start": {
@@ -808,8 +808,8 @@
                               "type": "Identifier",
                               "name": "getNorthwindOrdersModel",
                               "range": [
-                                777,
-                                800
+                                759,
+                                782
                               ],
                               "loc": {
                                 "start": {
@@ -827,8 +827,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              767,
-                              800
+                              749,
+                              782
                             ],
                             "loc": {
                               "start": {
@@ -847,8 +847,8 @@
                               "type": "Identifier",
                               "name": "getNewDataSource",
                               "range": [
-                                815,
-                                831
+                                796,
+                                812
                               ],
                               "loc": {
                                 "start": {
@@ -865,8 +865,8 @@
                               "type": "Identifier",
                               "name": "getNorthwindOrdersDataSource",
                               "range": [
-                                833,
-                                861
+                                814,
+                                842
                               ],
                               "loc": {
                                 "start": {
@@ -884,8 +884,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              815,
-                              861
+                              796,
+                              842
                             ],
                             "loc": {
                               "start": {
@@ -900,8 +900,8 @@
                           }
                         ],
                         "range": [
-                          752,
-                          872
+                          735,
+                          852
                         ],
                         "loc": {
                           "start": {
@@ -919,8 +919,8 @@
                       "shorthand": false,
                       "computed": false,
                       "range": [
-                        745,
-                        872
+                        728,
+                        852
                       ],
                       "loc": {
                         "start": {
@@ -935,8 +935,8 @@
                     }
                   ],
                   "range": [
-                    697,
-                    879
+                    682,
+                    858
                   ],
                   "loc": {
                     "start": {
@@ -954,8 +954,8 @@
                 "shorthand": false,
                 "computed": false,
                 "range": [
-                  677,
-                  879
+                  662,
+                  858
                 ],
                 "loc": {
                   "start": {
@@ -970,8 +970,8 @@
               }
             ],
             "range": [
-              452,
-              882
+              445,
+              860
             ],
             "loc": {
               "start": {
@@ -985,8 +985,8 @@
             }
           },
           "range": [
-            428,
-            882
+            421,
+            860
           ],
           "loc": {
             "start": {
@@ -1002,8 +1002,8 @@
       ],
       "kind": "const",
       "range": [
-        422,
-        883
+        415,
+        861
       ],
       "loc": {
         "start": {
@@ -1014,7 +1014,27 @@
           "line": 23,
           "column": 2
         }
-      }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Returns definition object used to create the tables\n * @param  {string} tableName name of the table\n * @return {object} definition object used to create the tables\n ",
+          "range": [
+            863,
+            1037
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ]
     },
     {
       "type": "Identifier",
@@ -1022,16 +1042,16 @@
         "type": "Identifier",
         "name": "getTableClassDef",
         "range": [
-          896,
-          912
+          1047,
+          1063
         ],
         "loc": {
           "start": {
-            "line": 25,
+            "line": 30,
             "column": 9
           },
           "end": {
-            "line": 25,
+            "line": 30,
             "column": 25
           }
         }
@@ -1041,16 +1061,16 @@
           "type": "Identifier",
           "name": "tableName",
           "range": [
-            913,
-            922
+            1064,
+            1073
           ],
           "loc": {
             "start": {
-              "line": 25,
+              "line": 30,
               "column": 26
             },
             "end": {
-              "line": 25,
+              "line": 30,
               "column": 35
             }
           }
@@ -1068,16 +1088,16 @@
                 "type": "Identifier",
                 "name": "allTableClassesObject",
                 "range": [
-                  938,
-                  959
+                  1088,
+                  1109
                 ],
                 "loc": {
                   "start": {
-                    "line": 26,
+                    "line": 31,
                     "column": 11
                   },
                   "end": {
-                    "line": 26,
+                    "line": 31,
                     "column": 32
                   }
                 }
@@ -1086,62 +1106,62 @@
                 "type": "Identifier",
                 "name": "tableName",
                 "range": [
-                  960,
-                  969
+                  1110,
+                  1119
                 ],
                 "loc": {
                   "start": {
-                    "line": 26,
+                    "line": 31,
                     "column": 33
                   },
                   "end": {
-                    "line": 26,
+                    "line": 31,
                     "column": 42
                   }
                 }
               },
               "range": [
-                938,
-                970
+                1088,
+                1120
               ],
               "loc": {
                 "start": {
-                  "line": 26,
+                  "line": 31,
                   "column": 11
                 },
                 "end": {
-                  "line": 26,
+                  "line": 31,
                   "column": 43
                 }
               }
             },
             "range": [
-              931,
-              971
+              1081,
+              1121
             ],
             "loc": {
               "start": {
-                "line": 26,
+                "line": 31,
                 "column": 4
               },
               "end": {
-                "line": 26,
+                "line": 31,
                 "column": 44
               }
             }
           }
         ],
         "range": [
-          924,
-          974
+          1075,
+          1123
         ],
         "loc": {
           "start": {
-            "line": 25,
+            "line": 30,
             "column": 37
           },
           "end": {
-            "line": 27,
+            "line": 32,
             "column": 1
           }
         }
@@ -1149,39 +1169,22 @@
       "generator": false,
       "expression": false,
       "range": [
-        887,
-        974
+        1038,
+        1123
       ],
       "loc": {
         "start": {
-          "line": 25,
+          "line": 30,
           "column": 0
         },
         "end": {
-          "line": 27,
+          "line": 32,
           "column": 1
         }
       },
-      "name": "_",
       "leadingComments": [],
+      "name": "_",
       "trailingComments": []
-    },
-    {
-      "type": "EmptyStatement",
-      "range": [
-        974,
-        975
-      ],
-      "loc": {
-        "start": {
-          "line": 27,
-          "column": 1
-        },
-        "end": {
-          "line": 27,
-          "column": 2
-        }
-      }
     },
     {
       "type": "Identifier",
@@ -1189,31 +1192,31 @@
         "type": "Identifier",
         "name": "getTableClassDef",
         "range": [
-          996,
-          1012
+          1141,
+          1157
         ],
         "loc": {
           "start": {
-            "line": 30,
+            "line": 35,
             "column": 15
           },
           "end": {
-            "line": 30,
+            "line": 35,
             "column": 31
           }
         }
       },
       "range": [
-        981,
-        1013
+        1126,
+        1158
       ],
       "loc": {
         "start": {
-          "line": 30,
+          "line": 35,
           "column": 0
         },
         "end": {
-          "line": 30,
+          "line": 35,
           "column": 32
         }
       },
@@ -1229,16 +1232,16 @@
           "type": "Identifier",
           "name": "getTableClassDef",
           "range": [
-            896,
-            912
+            1047,
+            1063
           ],
           "loc": {
             "start": {
-              "line": 25,
+              "line": 30,
               "column": 9
             },
             "end": {
-              "line": 25,
+              "line": 30,
               "column": 25
             }
           }
@@ -1248,16 +1251,16 @@
             "type": "Identifier",
             "name": "tableName",
             "range": [
-              913,
-              922
+              1064,
+              1073
             ],
             "loc": {
               "start": {
-                "line": 25,
+                "line": 30,
                 "column": 26
               },
               "end": {
-                "line": 25,
+                "line": 30,
                 "column": 35
               }
             }
@@ -1275,16 +1278,16 @@
                   "type": "Identifier",
                   "name": "allTableClassesObject",
                   "range": [
-                    938,
-                    959
+                    1088,
+                    1109
                   ],
                   "loc": {
                     "start": {
-                      "line": 26,
+                      "line": 31,
                       "column": 11
                     },
                     "end": {
-                      "line": 26,
+                      "line": 31,
                       "column": 32
                     }
                   }
@@ -1293,62 +1296,62 @@
                   "type": "Identifier",
                   "name": "tableName",
                   "range": [
-                    960,
-                    969
+                    1110,
+                    1119
                   ],
                   "loc": {
                     "start": {
-                      "line": 26,
+                      "line": 31,
                       "column": 33
                     },
                     "end": {
-                      "line": 26,
+                      "line": 31,
                       "column": 42
                     }
                   }
                 },
                 "range": [
-                  938,
-                  970
+                  1088,
+                  1120
                 ],
                 "loc": {
                   "start": {
-                    "line": 26,
+                    "line": 31,
                     "column": 11
                   },
                   "end": {
-                    "line": 26,
+                    "line": 31,
                     "column": 43
                   }
                 }
               },
               "range": [
-                931,
-                971
+                1081,
+                1121
               ],
               "loc": {
                 "start": {
-                  "line": 26,
+                  "line": 31,
                   "column": 4
                 },
                 "end": {
-                  "line": 26,
+                  "line": 31,
                   "column": 44
                 }
               }
             }
           ],
           "range": [
-            924,
-            974
+            1075,
+            1123
           ],
           "loc": {
             "start": {
-              "line": 25,
+              "line": 30,
               "column": 37
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 1
             }
           }
@@ -1356,33 +1359,52 @@
         "generator": false,
         "expression": false,
         "range": [
-          887,
-          974
+          1038,
+          1123
         ],
         "loc": {
           "start": {
-            "line": 25,
+            "line": 30,
             "column": 0
           },
           "end": {
-            "line": 27,
+            "line": 32,
             "column": 1
           }
         },
-        "leadingComments": [],
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Returns definition object used to create the tables\n * @param  {string} tableName name of the table\n * @return {object} definition object used to create the tables\n ",
+            "range": [
+              863,
+              1037
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ],
         "trailingComments": []
       },
       "range": [
-        981,
-        1013
+        1126,
+        1158
       ],
       "loc": {
         "start": {
-          "line": 30,
+          "line": 35,
           "column": 0
         },
         "end": {
-          "line": 30,
+          "line": 35,
           "column": 32
         }
       }
@@ -1391,7 +1413,7 @@
   "sourceType": "module",
   "range": [
     0,
-    1013
+    1158
   ],
   "loc": {
     "start": {
@@ -1399,9 +1421,28 @@
       "column": 0
     },
     "end": {
-      "line": 30,
+      "line": 35,
       "column": 32
     }
   },
-  "comments": []
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Returns definition object used to create the tables\n * @param  {string} tableName name of the table\n * @return {object} definition object used to create the tables\n ",
+      "range": [
+        863,
+        1037
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    }
+  ]
 }

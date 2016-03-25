@@ -426,28 +426,10 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
-    "src/js/modules/northwind-table.js~table#el",
-    "class/src/js/modules/northwind-table.js~Table.html#instance-member-el",
-    "src/js/modules/northwind-table.js~Table#el",
-    "member"
-  ],
-  [
-    "src/js/modules/northwind-table.js~table#props",
-    "class/src/js/modules/northwind-table.js~Table.html#instance-member-props",
-    "src/js/modules/northwind-table.js~Table#props",
-    "member"
-  ],
-  [
     "src/js/modules/northwind-table.js~table#setupgrid",
     "class/src/js/modules/northwind-table.js~Table.html#instance-method-setupGrid",
     "src/js/modules/northwind-table.js~Table#setupGrid",
     "method"
-  ],
-  [
-    "src/js/modules/northwind-table.js~table#wrapperselector",
-    "class/src/js/modules/northwind-table.js~Table.html#instance-member-wrapperSelector",
-    "src/js/modules/northwind-table.js~Table#wrapperSelector",
-    "member"
   ],
   [
     "src/js/modules/templates/tablewrappertemplate.js",

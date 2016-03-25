@@ -10,7 +10,7 @@
     "access": null,
     "description": null,
     "lineNumber": 2,
-    "content": "/* global $, document */\r\nimport \"kendo.router.js\";\r\nimport getTableClassDef from \"./modules/helpers/gettableclassdef.js\";\r\n\r\n\r\n$(document).ready(function() {\r\n    const customersTableDef = getTableClassDef(\"northwind-customers\");\r\n    const customersTable = new customersTableDef.TableClass(customersTableDef.props);  // eslint-disable-line no-unused-vars\r\n    const ordersTableDef = getTableClassDef(\"northwind-orders\");\r\n    const ordersTable = new ordersTableDef.TableClass(ordersTableDef.props);  // eslint-disable-line no-unused-vars\r\n});\r\n\r\n"
+    "content": "/* global $, document */\nimport \"kendo.router.js\";\nimport getTableClassDef from \"./modules/helpers/gettableclassdef.js\";\n\n/**\n * The starter function that kicks off the app.  Should really replace this with something using the kendo router\n * @param  {function} callback that executes on DOM load\n * @return {null} nothing returned\n */\n$(document).ready(function() {\n    const customersTableDef = getTableClassDef(\"northwind-customers\");\n    const customersTable = new customersTableDef.TableClass(customersTableDef.props);  // eslint-disable-line no-unused-vars\n    const ordersTableDef = getTableClassDef(\"northwind-orders\");\n    const ordersTable = new ordersTableDef.TableClass(ordersTableDef.props);  // eslint-disable-line no-unused-vars\n});\n\n"
   },
   {
     "__docId__": 1,
@@ -23,7 +23,7 @@
     "access": null,
     "description": null,
     "lineNumber": 6,
-    "content": "//  Northwind Customers Table mmodel\r\n/**\r\n* This is getTableModel for Northwind Customers Table\r\n* @returns {object} the model object for the Northwind Customers Table\r\n*/\r\nfunction getTableModel() {\r\n    return {\r\n        name: \"northwind-customers\",\r\n        title: \"Northwind Customers\",\r\n        paths: {\r\n            read: \"//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers\"\r\n        },\r\n        model: {},\r\n        columns: [{\r\n            template: \"<div class='customer-photo'ß\" +\r\n                \"style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>\" +\r\n                \"<div class='customer-name'>#: ContactName #</div>\",\r\n            field: \"ContactName\",\r\n            title: \"Contact Name\",\r\n            width: 240\r\n        }, {\r\n            field: \"ContactTitle\",\r\n            title: \"Contact Title\"\r\n        }, {\r\n            field: \"CompanyName\",\r\n            title: \"Company Name\"\r\n        }, {\r\n            field: \"Country\",\r\n            width: 150\r\n        }]\r\n    };\r\n}\r\n\r\nexport default getTableModel;\r\n"
+    "content": "//  Northwind Customers Table model\n/**\n* This is getTableModel for Northwind Customers Table\n* @return {object} the model object for the Northwind Customers Table\n*/\nfunction getTableModel() {\n    return {\n        name: \"northwind-customers\",\n        title: \"Northwind Customers\",\n        paths: {\n            read: \"//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers\"\n        },\n        model: {},\n        columns: [{\n            template: \"<div class='customer-photo'\" +\n                \"style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>\" +\n                \"<div class='customer-name'>#: ContactName #</div>\",\n            field: \"ContactName\",\n            title: \"Contact Name\",\n            width: 240\n        }, {\n            field: \"ContactTitle\",\n            title: \"Contact Title\"\n        }, {\n            field: \"CompanyName\",\n            title: \"Company Name\"\n        }, {\n            field: \"Country\",\n            width: 150\n        }]\n    };\n}\n\nexport default getTableModel;\n"
   },
   {
     "__docId__": 2,
@@ -39,12 +39,6 @@
     "importStyle": "getTableModel",
     "description": "This is getTableModel for Northwind Customers Table",
     "lineNumber": 6,
-    "unknown": [
-      {
-        "tagName": "@returns",
-        "tagValue": "{object} the model object for the Northwind Customers Table"
-      }
-    ],
     "params": [],
     "return": {
       "nullable": null,
@@ -67,7 +61,7 @@
     "access": null,
     "description": null,
     "lineNumber": 6,
-    "content": "//  Northwind Orders Table model\r\n/**\r\n * This is getTableModel for Northwind Orders Table\r\n * @returns {object} the model object for the Northwind Customers Table\r\n */\r\nfunction getTableModel() {\r\n    return {\r\n        name: \"northwind-orders\",\r\n        title: \"Northwind Orders\",\r\n        paths: {\r\n            read: \"//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders\"\r\n        },\r\n        model: {},\r\n        columns: [{\r\n                \"field\": \"OrderID\",\r\n                \"filterable\": false\r\n            },\r\n            \"Freight\", {\r\n                field: \"OrderDate\",\r\n                title: \"Order Date\",\r\n                format: \"{0:MM/dd/yyyy}\"\r\n            }, {\r\n                field: \"ShipName\",\r\n                title: \"Ship Name\"\r\n            }, {\r\n                field: \"ShipCity\",\r\n                title: \"Ship City\"\r\n            }\r\n        ]\r\n    };\r\n}\r\n\r\nexport default getTableModel;\r\n"
+    "content": "//  Northwind Orders Table model\n/**\n * This is getTableModel for Northwind Orders Table\n * @return {object} the model object for the Northwind Customers Table\n */\nfunction getTableModel() {\n    return {\n        name: \"northwind-orders\",\n        title: \"Northwind Orders\",\n        paths: {\n            read: \"//demos.telerik.com/kendo-ui/service/Northwind.svc/Orders\"\n        },\n        model: {},\n        columns: [{\n                \"field\": \"OrderID\",\n                \"filterable\": false\n            },\n            \"Freight\", {\n                field: \"OrderDate\",\n                title: \"Order Date\",\n                format: \"{0:MM/dd/yyyy}\"\n            }, {\n                field: \"ShipName\",\n                title: \"Ship Name\"\n            }, {\n                field: \"ShipCity\",\n                title: \"Ship City\"\n            }\n        ]\n    };\n}\n\nexport default getTableModel;\n"
   },
   {
     "__docId__": 4,
@@ -83,12 +77,6 @@
     "importStyle": "getTableModel",
     "description": "This is getTableModel for Northwind Orders Table",
     "lineNumber": 6,
-    "unknown": [
-      {
-        "tagName": "@returns",
-        "tagValue": "{object} the model object for the Northwind Customers Table"
-      }
-    ],
     "params": [],
     "return": {
       "nullable": null,
@@ -111,7 +99,7 @@
     "access": null,
     "description": null,
     "lineNumber": 2,
-    "content": "/* global kendo */\r\nimport \"kendo.data.js\"; // will be imported as kendo variable.  No need to specify.\r\n\r\n/**\r\n * This is getNewDataSource\r\n * @param {object} props - config object for function.  Elements of this object are:\r\n * @param {object} props.model - the model for this data source\r\n * @param {object} props.paths - the paths to the APIs for this data source\r\n * @returns {object} a new kendo.data.DataSource, based on configs passed in\r\n */\r\nfunction getNewDataSource(props) {\r\n    const model = props.model;\r\n    const paths = props.paths;\r\n\r\n    const newDataSource = new kendo.data.DataSource({\r\n        schema: { model: model },\r\n        type: \"odata\",\r\n        transport: {\r\n            read: paths.read\r\n        },\r\n        pageSize: 20\r\n    });\r\n\r\n    return newDataSource;\r\n}\r\n\r\nexport default getNewDataSource;\r\n"
+    "content": "/* global kendo */\nimport \"kendo.data.js\"; // will be imported as kendo variable.  No need to specify.\n\n/**\n * This is getNewDataSource\n * @param {object} props - config object for function.  Elements of this object are:\n * @param {object} props.model - the model for this data source\n * @param {object} props.paths - the paths to the APIs for this data source\n * @returns {object} a new kendo.data.DataSource, based on configs passed in\n */\nfunction getNewDataSource(props) {\n    const model = props.model;\n    const paths = props.paths;\n\n    const newDataSource = new kendo.data.DataSource({\n        schema: { model: model },\n        type: \"odata\",\n        transport: {\n            read: paths.read\n        },\n        pageSize: 20\n    });\n\n    return newDataSource;\n}\n\nexport default getNewDataSource;\n"
   },
   {
     "__docId__": 6,
@@ -185,8 +173,8 @@
     "longname": "src/js/modules/data-sources/northwind-orders-datasource.js",
     "access": null,
     "description": null,
-    "lineNumber": 1,
-    "content": " import \"kendo.data.js\"; // will be imported as kendo variable.  No need to specify.\r\n\r\n\r\n const getNewDataSource = function(props) {\r\n     const model = props.model;\r\n     const paths = props.paths;\r\n\r\n     const newDataSource = new kendo.data.DataSource({\r\n         schema: { model: model },\r\n         type: \"odata\",\r\n         transport: {\r\n             read: paths.read\r\n         },\r\n         serverPaging: true,\r\n         serverSorting: true,\r\n         pageSize: 100\r\n     });\r\n\r\n     return newDataSource;\r\n };\r\n\r\n export default getNewDataSource;\r\n"
+    "lineNumber": 2,
+    "content": "/* global kendo */\n import \"kendo.data.js\"; // will be imported as kendo variable.  No need to specify.\n\n/**\n * Sets up a new kendo.data.DataSource that will be bound to a table\n * @param  {object} props Oject containing model and path\n * @return {object} new kendo.data.DataSource\n */\n function getNewDataSource(props) {\n     const model = props.model;\n     const paths = props.paths;\n\n     const newDataSource = new kendo.data.DataSource({\n         schema: { model: model },\n         type: \"odata\",\n         transport: {\n             read: paths.read\n         },\n         serverPaging: true,\n         serverSorting: true,\n         pageSize: 100\n     });\n\n     return newDataSource;\n }\n\n export default getNewDataSource;\n"
   },
   {
     "__docId__": 8,
@@ -200,21 +188,27 @@
     "export": true,
     "importPath": "kendo-webpack-systemjs/src/js/modules/data-sources/northwind-orders-datasource.js",
     "importStyle": "getNewDataSource",
-    "description": null,
-    "lineNumber": 4,
-    "undocument": true,
+    "description": "Sets up a new kendo.data.DataSource that will be bound to a table",
+    "lineNumber": 9,
     "params": [
       {
-        "name": "props",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "Oject containing model and path"
       }
     ],
     "return": {
+      "nullable": null,
       "types": [
-        "*"
-      ]
+        "object"
+      ],
+      "spread": false,
+      "description": "new kendo.data.DataSource"
     },
     "generator": false
   },
@@ -229,7 +223,7 @@
     "access": null,
     "description": null,
     "lineNumber": 1,
-    "content": "import NorthwindTable from '../../modules/northwind-table.js';\r\nimport getNorthwindCustomersModel from '../../models/northwind-customers-model.js';\r\nimport getNorthwindCustomersDataSource from '../data-sources/northwind-customers-datasource.js';\r\nimport getNorthwindOrdersModel from '../../models/northwind-orders-model.js';\r\nimport getNorthwindOrdersDataSource from '../data-sources/northwind-orders-datasource.js';\r\n\r\n\r\nconst allTableClassesObject = {\r\n    \"northwind-customers\": {\r\n        TableClass: NorthwindTable,\r\n        props: {\r\n            getModel: getNorthwindCustomersModel,\r\n            getNewDataSource: getNorthwindCustomersDataSource\r\n        }\r\n    },\r\n    \"northwind-orders\": {\r\n        TableClass: NorthwindTable,\r\n        props: {\r\n            getModel: getNorthwindOrdersModel,\r\n            getNewDataSource: getNorthwindOrdersDataSource\r\n        }\r\n    }\r\n};\r\n\r\nfunction getTableClassDef(tableName) {\r\n    return allTableClassesObject[tableName];\r\n};\r\n\r\n\r\nexport default getTableClassDef;"
+    "content": "import NorthwindTable from \"../../modules/northwind-table.js\";\nimport getNorthwindCustomersModel from \"../../models/northwind-customers-model.js\";\nimport getNorthwindCustomersDataSource from \"../data-sources/northwind-customers-datasource.js\";\nimport getNorthwindOrdersModel from \"../../models/northwind-orders-model.js\";\nimport getNorthwindOrdersDataSource from \"../data-sources/northwind-orders-datasource.js\";\n\n\nconst allTableClassesObject = {\n    \"northwind-customers\": {\n        TableClass: NorthwindTable,\n        props: {\n            getModel: getNorthwindCustomersModel,\n            getNewDataSource: getNorthwindCustomersDataSource\n        }\n    },\n    \"northwind-orders\": {\n        TableClass: NorthwindTable,\n        props: {\n            getModel: getNorthwindOrdersModel,\n            getNewDataSource: getNorthwindOrdersDataSource\n        }\n    }\n};\n\n/**\n * Returns definition object used to create the tables\n * @param  {string} tableName name of the table\n * @return {object} definition object used to create the tables\n */\nfunction getTableClassDef(tableName) {\n    return allTableClassesObject[tableName];\n}\n\n\nexport default getTableClassDef;\n"
   },
   {
     "__docId__": 10,
@@ -264,21 +258,27 @@
     "export": true,
     "importPath": "kendo-webpack-systemjs/src/js/modules/helpers/gettableclassdef.js",
     "importStyle": "getTableClassDef",
-    "description": null,
-    "lineNumber": 25,
-    "undocument": true,
+    "description": "Returns definition object used to create the tables",
+    "lineNumber": 30,
     "params": [
       {
-        "name": "tableName",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tableName",
+        "description": "name of the table"
       }
     ],
     "return": {
+      "nullable": null,
       "types": [
-        "*"
-      ]
+        "object"
+      ],
+      "spread": false,
+      "description": "definition object used to create the tables"
     },
     "generator": false
   },
@@ -292,8 +292,8 @@
     "longname": "src/js/modules/northwind-table.js",
     "access": null,
     "description": null,
-    "lineNumber": 1,
-    "content": "import \"kendo.grid.js\";\r\nimport getTableWrapperTemplate from './templates/tablewrappertemplate.js';\r\n\r\n\r\nclass Table {\r\n    constructor(props) {\r\n        this.props = props;\r\n        this.currentGrid = this.setupGrid();\r\n        this.wrapperSelector = props.wrapperSelector || \"#tableWrapper\";\r\n        this.el = props.getModel().name;  // el (as in element) terminology is from Backbone.\r\n        this.setupGrid();\r\n    }\r\n\r\n    setupGrid() {\r\n        var that = this;\r\n        const dataSource = this.props.getNewDataSource({ model: that.props.getModel().model, paths: that.props.getModel().paths });\r\n\r\n        var templateData = getTableWrapperTemplate(this.props.getModel().name, this.props.getModel().title || \"Unknown title\");\r\n        var parsedHTML = $.parseHTML(templateData);\r\n\r\n        var $wrapper = $(this.wrapperSelector);\r\n        $wrapper.append(parsedHTML);\r\n        var $el = $wrapper.find(\"#\"  + this.el);\r\n        $el.kendoGrid({\r\n            dataSource: dataSource,\r\n            height: 550,\r\n            groupable: true,\r\n            sortable: true,\r\n            pageable: {\r\n                refresh: true,\r\n                pageSizes: true,\r\n                buttonCount: 5\r\n            },\r\n            columns: that.props.getModel().columns\r\n        });\r\n    }\r\n}\r\n\r\nexport default Table;\r\n"
+    "lineNumber": 3,
+    "content": "/* global $ */\n\nimport \"kendo.grid.js\";\nimport getTableWrapperTemplate from \"./templates/tablewrappertemplate.js\";\n\nclass Table {\n    /**\n     * Constructor takes props argument object and calls setupGrid method to setup a new kendoGrid based on those props\n     * @param  {object} props config object.  (Props terminology borrowed from React.)\n     * @param {function} props.getModel a function that when run will return the model for the grid\n     * @param {function} props.getNewDataSource a function that when run will return the kendo data source for the grid, based on the model data passed to it\n     */\n    constructor(props) {\n        /**\n         * Props as in \"properties\" terminology borrowed from React.\n         * @type {[type]}\n         */\n        this._props = props;\n        /**\n         * The actual kendoGrid that this class sets up\n         * @type {[type]}\n         */\n        this.currentGrid = this.setupGrid();\n        /**\n         * CSS selector for the element (e.g. a div) on which the kendo grid will be set up\n         * @type {[type]}\n         */\n        this._wrapperSelector = props.wrapperSelector || \"#tableWrapper\";\n        /**\n         * el (as in element) terminology is from Backbone\n         * @type {[type]}\n         */\n        this._el = props.getModel().name;\n        this.setupGrid(props);\n    }\n\n    /**\n     * method setups up the kendo grid based on props passed to the constructor\n     *  @return {null} nothing returned.  Grid is setup on the element this.el, which is based on the model definition name\n     */\n    setupGrid() {\n        var that = this;\n        const dataSource = this.props.getNewDataSource({ model: this[\"_props\"].getModel().model, paths: this[\"_props\"].getModel().paths });  // eslint-disable-line dot-notation\n\n        var templateData = getTableWrapperTemplate(this.props.getModel().name, this.props.getModel().title || \"Unknown title\");\n        var parsedHTML = $.parseHTML(templateData);\n\n        var $wrapper = $(this.wrapperSelector);\n        $wrapper.append(parsedHTML);\n        var $el = $wrapper.find(\"#\" + this.el);\n        $el.kendoGrid({\n            dataSource: dataSource,\n            height: 550,\n            groupable: true,\n            sortable: true,\n            pageable: {\n                refresh: true,\n                pageSizes: true,\n                buttonCount: 5\n            },\n            columns: that[\"_props\"].getModel().columns  // eslint-disable-line dot-notation\n        });\n    }\n}\n\nexport default Table;\n"
   },
   {
     "__docId__": 13,
@@ -308,7 +308,7 @@
     "importPath": "kendo-webpack-systemjs/src/js/modules/northwind-table.js",
     "importStyle": "Table",
     "description": null,
-    "lineNumber": 5,
+    "lineNumber": 6,
     "undocument": true,
     "interface": false
   },
@@ -321,15 +321,38 @@
     "memberof": "src/js/modules/northwind-table.js~Table",
     "longname": "src/js/modules/northwind-table.js~Table#constructor",
     "access": null,
-    "description": null,
-    "lineNumber": 6,
-    "undocument": true,
+    "description": "Constructor takes props argument object and calls setupGrid method to setup a new kendoGrid based on those props",
+    "lineNumber": 13,
     "params": [
       {
-        "name": "props",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "config object.  (Props terminology borrowed from React.)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.getModel",
+        "description": "a function that when run will return the model for the grid"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.getNewDataSource",
+        "description": "a function that when run will return the kendo data source for the grid, based on the model data passed to it"
       }
     ],
     "generator": false
@@ -339,17 +362,19 @@
     "kind": "member",
     "static": false,
     "variation": null,
-    "name": "props",
+    "name": "_props",
     "memberof": "src/js/modules/northwind-table.js~Table",
-    "longname": "src/js/modules/northwind-table.js~Table#props",
+    "longname": "src/js/modules/northwind-table.js~Table#_props",
     "access": null,
-    "description": null,
-    "lineNumber": 7,
-    "undocument": true,
+    "description": "Props as in \"properties\" terminology borrowed from React.",
+    "lineNumber": 18,
     "type": {
+      "nullable": null,
       "types": [
-        "*"
-      ]
+        "[type]"
+      ],
+      "spread": false,
+      "description": null
     }
   },
   {
@@ -361,13 +386,15 @@
     "memberof": "src/js/modules/northwind-table.js~Table",
     "longname": "src/js/modules/northwind-table.js~Table#currentGrid",
     "access": null,
-    "description": null,
-    "lineNumber": 8,
-    "undocument": true,
+    "description": "The actual kendoGrid that this class sets up",
+    "lineNumber": 23,
     "type": {
+      "nullable": null,
       "types": [
-        "*"
-      ]
+        "[type]"
+      ],
+      "spread": false,
+      "description": null
     }
   },
   {
@@ -375,17 +402,19 @@
     "kind": "member",
     "static": false,
     "variation": null,
-    "name": "wrapperSelector",
+    "name": "_wrapperSelector",
     "memberof": "src/js/modules/northwind-table.js~Table",
-    "longname": "src/js/modules/northwind-table.js~Table#wrapperSelector",
+    "longname": "src/js/modules/northwind-table.js~Table#_wrapperSelector",
     "access": null,
-    "description": null,
-    "lineNumber": 9,
-    "undocument": true,
+    "description": "CSS selector for the element (e.g. a div) on which the kendo grid will be set up",
+    "lineNumber": 28,
     "type": {
+      "nullable": null,
       "types": [
-        "*"
-      ]
+        "[type]"
+      ],
+      "spread": false,
+      "description": null
     }
   },
   {
@@ -393,17 +422,19 @@
     "kind": "member",
     "static": false,
     "variation": null,
-    "name": "el",
+    "name": "_el",
     "memberof": "src/js/modules/northwind-table.js~Table",
-    "longname": "src/js/modules/northwind-table.js~Table#el",
+    "longname": "src/js/modules/northwind-table.js~Table#_el",
     "access": null,
-    "description": null,
-    "lineNumber": 10,
-    "undocument": true,
+    "description": "el (as in element) terminology is from Backbone",
+    "lineNumber": 33,
     "type": {
+      "nullable": null,
       "types": [
-        "*"
-      ]
+        "[type]"
+      ],
+      "spread": false,
+      "description": null
     }
   },
   {
@@ -415,10 +446,17 @@
     "memberof": "src/js/modules/northwind-table.js~Table",
     "longname": "src/js/modules/northwind-table.js~Table#setupGrid",
     "access": null,
-    "description": null,
-    "lineNumber": 14,
-    "undocument": true,
+    "description": "method setups up the kendo grid based on props passed to the constructor",
+    "lineNumber": 41,
     "params": [],
+    "return": {
+      "nullable": null,
+      "types": [
+        "null"
+      ],
+      "spread": false,
+      "description": "nothing returned.  Grid is setup on the element this.el, which is based on the model definition name"
+    },
     "generator": false
   },
   {
@@ -431,8 +469,8 @@
     "longname": "src/js/modules/templates/tablewrappertemplate.js",
     "access": null,
     "description": null,
-    "lineNumber": 3,
-    "content": "// This function uses ES6 template strings,\r\n// see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings\r\nfunction getTableWrapper(tableId, tableTitle) {\r\n    return `\r\n        <div class=\"panel panel-default\">\r\n            <div class=\"panel-heading\">\r\n                <h3 class=\"panel-title\">${tableTitle}</h3>\r\n            </div>\r\n            <div class=\"panel-body\">\r\n                <div id=\"${tableId}\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\r\n            </div>\r\n        </div>\r\n    `;\r\n}\r\n\r\nexport default getTableWrapper;"
+    "lineNumber": 10,
+    "content": "// This function uses ES6 template strings,\n// see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings\n\n/**\n * Template for HTML that goes around an Kendo Grid table.  Note that this module actually exports the getTableWrapper function itself.  This must then be called externally to get the template text.\n * @param  {string} tableId     id if the table, will be used as its html id\n * @param  {String} tableTitle Title to be displayed in the panel-heading\n * @return {string} the text of the template with values filled in.\n */\nfunction getTableWrapper(tableId, tableTitle) {\n    return `\n        <div class=\"panel panel-default\">\n            <div class=\"panel-heading\">\n                <h3 class=\"panel-title\">${tableTitle}</h3>\n            </div>\n            <div class=\"panel-body\">\n                <div id=\"${tableId}\" style=\"width:100%\" class=\"sortableTable adminTable\"></div>\n            </div>\n        </div>\n    `;\n}\n\nexport default getTableWrapper;\n"
   },
   {
     "__docId__": 21,
@@ -446,27 +484,37 @@
     "export": true,
     "importPath": "kendo-webpack-systemjs/src/js/modules/templates/tablewrappertemplate.js",
     "importStyle": "getTableWrapper",
-    "description": null,
-    "lineNumber": 3,
-    "undocument": true,
+    "description": "Template for HTML that goes around an Kendo Grid table.  Note that this module actually exports the getTableWrapper function itself.  This must then be called externally to get the template text.",
+    "lineNumber": 10,
     "params": [
       {
-        "name": "tableId",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tableId",
+        "description": "id if the table, will be used as its html id"
       },
       {
-        "name": "tableTitle",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "tableTitle",
+        "description": "Title to be displayed in the panel-heading"
       }
     ],
     "return": {
+      "nullable": null,
       "types": [
         "string"
-      ]
+      ],
+      "spread": false,
+      "description": "the text of the template with values filled in."
     },
     "generator": false
   },

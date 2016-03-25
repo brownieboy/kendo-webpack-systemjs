@@ -7,8 +7,8 @@
         "type": "Identifier",
         "name": "getTableModel",
         "range": [
-          183,
-          196
+          176,
+          189
         ],
         "loc": {
           "start": {
@@ -36,8 +36,8 @@
                     "type": "Identifier",
                     "name": "name",
                     "range": [
-                      224,
-                      228
+                      215,
+                      219
                     ],
                     "loc": {
                       "start": {
@@ -55,8 +55,8 @@
                     "value": "northwind-customers",
                     "raw": "\"northwind-customers\"",
                     "range": [
-                      230,
-                      251
+                      221,
+                      242
                     ],
                     "loc": {
                       "start": {
@@ -74,8 +74,8 @@
                   "shorthand": false,
                   "computed": false,
                   "range": [
-                    224,
-                    251
+                    215,
+                    242
                   ],
                   "loc": {
                     "start": {
@@ -94,8 +94,8 @@
                     "type": "Identifier",
                     "name": "title",
                     "range": [
-                      262,
-                      267
+                      252,
+                      257
                     ],
                     "loc": {
                       "start": {
@@ -113,8 +113,8 @@
                     "value": "Northwind Customers",
                     "raw": "\"Northwind Customers\"",
                     "range": [
-                      269,
-                      290
+                      259,
+                      280
                     ],
                     "loc": {
                       "start": {
@@ -132,8 +132,8 @@
                   "shorthand": false,
                   "computed": false,
                   "range": [
-                    262,
-                    290
+                    252,
+                    280
                   ],
                   "loc": {
                     "start": {
@@ -152,8 +152,8 @@
                     "type": "Identifier",
                     "name": "paths",
                     "range": [
-                      301,
-                      306
+                      290,
+                      295
                     ],
                     "loc": {
                       "start": {
@@ -175,8 +175,8 @@
                           "type": "Identifier",
                           "name": "read",
                           "range": [
-                            323,
-                            327
+                            311,
+                            315
                           ],
                           "loc": {
                             "start": {
@@ -194,8 +194,8 @@
                           "value": "//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers",
                           "raw": "\"//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers\"",
                           "range": [
-                            329,
-                            391
+                            317,
+                            379
                           ],
                           "loc": {
                             "start": {
@@ -213,8 +213,8 @@
                         "shorthand": false,
                         "computed": false,
                         "range": [
-                          323,
-                          391
+                          311,
+                          379
                         ],
                         "loc": {
                           "start": {
@@ -229,8 +229,8 @@
                       }
                     ],
                     "range": [
-                      308,
-                      402
+                      297,
+                      389
                     ],
                     "loc": {
                       "start": {
@@ -248,8 +248,8 @@
                   "shorthand": false,
                   "computed": false,
                   "range": [
-                    301,
-                    402
+                    290,
+                    389
                   ],
                   "loc": {
                     "start": {
@@ -268,8 +268,8 @@
                     "type": "Identifier",
                     "name": "model",
                     "range": [
-                      413,
-                      418
+                      399,
+                      404
                     ],
                     "loc": {
                       "start": {
@@ -286,8 +286,8 @@
                     "type": "ObjectExpression",
                     "properties": [],
                     "range": [
-                      420,
-                      422
+                      406,
+                      408
                     ],
                     "loc": {
                       "start": {
@@ -305,8 +305,8 @@
                   "shorthand": false,
                   "computed": false,
                   "range": [
-                    413,
-                    422
+                    399,
+                    408
                   ],
                   "loc": {
                     "start": {
@@ -325,8 +325,8 @@
                     "type": "Identifier",
                     "name": "columns",
                     "range": [
-                      433,
-                      440
+                      418,
+                      425
                     ],
                     "loc": {
                       "start": {
@@ -351,8 +351,8 @@
                               "type": "Identifier",
                               "name": "template",
                               "range": [
-                                458,
-                                466
+                                442,
+                                450
                               ],
                               "loc": {
                                 "start": {
@@ -373,11 +373,11 @@
                                 "operator": "+",
                                 "left": {
                                   "type": "Literal",
-                                  "value": "<div class='customer-photo'ß",
-                                  "raw": "\"<div class='customer-photo'ß\"",
+                                  "value": "<div class='customer-photo'",
+                                  "raw": "\"<div class='customer-photo'\"",
                                   "range": [
-                                    468,
-                                    498
+                                    452,
+                                    481
                                   ],
                                   "loc": {
                                     "start": {
@@ -386,7 +386,7 @@
                                     },
                                     "end": {
                                       "line": 15,
-                                      "column": 52
+                                      "column": 51
                                     }
                                   }
                                 },
@@ -395,8 +395,8 @@
                                   "value": "style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>",
                                   "raw": "\"style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>\"",
                                   "range": [
-                                    518,
-                                    606
+                                    500,
+                                    588
                                   ],
                                   "loc": {
                                     "start": {
@@ -410,8 +410,8 @@
                                   }
                                 },
                                 "range": [
-                                  468,
-                                  606
+                                  452,
+                                  588
                                 ],
                                 "loc": {
                                   "start": {
@@ -429,8 +429,8 @@
                                 "value": "<div class='customer-name'>#: ContactName #</div>",
                                 "raw": "\"<div class='customer-name'>#: ContactName #</div>\"",
                                 "range": [
-                                  626,
-                                  677
+                                  607,
+                                  658
                                 ],
                                 "loc": {
                                   "start": {
@@ -444,8 +444,8 @@
                                 }
                               },
                               "range": [
-                                468,
-                                677
+                                452,
+                                658
                               ],
                               "loc": {
                                 "start": {
@@ -463,8 +463,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              458,
-                              677
+                              442,
+                              658
                             ],
                             "loc": {
                               "start": {
@@ -483,8 +483,8 @@
                               "type": "Identifier",
                               "name": "field",
                               "range": [
-                                692,
-                                697
+                                672,
+                                677
                               ],
                               "loc": {
                                 "start": {
@@ -502,8 +502,8 @@
                               "value": "ContactName",
                               "raw": "\"ContactName\"",
                               "range": [
-                                699,
-                                712
+                                679,
+                                692
                               ],
                               "loc": {
                                 "start": {
@@ -521,8 +521,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              692,
-                              712
+                              672,
+                              692
                             ],
                             "loc": {
                               "start": {
@@ -541,8 +541,8 @@
                               "type": "Identifier",
                               "name": "title",
                               "range": [
-                                727,
-                                732
+                                706,
+                                711
                               ],
                               "loc": {
                                 "start": {
@@ -560,8 +560,8 @@
                               "value": "Contact Name",
                               "raw": "\"Contact Name\"",
                               "range": [
-                                734,
-                                748
+                                713,
+                                727
                               ],
                               "loc": {
                                 "start": {
@@ -579,8 +579,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              727,
-                              748
+                              706,
+                              727
                             ],
                             "loc": {
                               "start": {
@@ -599,8 +599,8 @@
                               "type": "Identifier",
                               "name": "width",
                               "range": [
-                                763,
-                                768
+                                741,
+                                746
                               ],
                               "loc": {
                                 "start": {
@@ -618,8 +618,8 @@
                               "value": 240,
                               "raw": "240",
                               "range": [
-                                770,
-                                773
+                                748,
+                                751
                               ],
                               "loc": {
                                 "start": {
@@ -637,8 +637,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              763,
-                              773
+                              741,
+                              751
                             ],
                             "loc": {
                               "start": {
@@ -653,8 +653,8 @@
                           }
                         ],
                         "range": [
-                          443,
-                          784
+                          428,
+                          761
                         ],
                         "loc": {
                           "start": {
@@ -676,8 +676,8 @@
                               "type": "Identifier",
                               "name": "field",
                               "range": [
-                                801,
-                                806
+                                777,
+                                782
                               ],
                               "loc": {
                                 "start": {
@@ -695,8 +695,8 @@
                               "value": "ContactTitle",
                               "raw": "\"ContactTitle\"",
                               "range": [
-                                808,
-                                822
+                                784,
+                                798
                               ],
                               "loc": {
                                 "start": {
@@ -714,8 +714,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              801,
-                              822
+                              777,
+                              798
                             ],
                             "loc": {
                               "start": {
@@ -734,8 +734,8 @@
                               "type": "Identifier",
                               "name": "title",
                               "range": [
-                                837,
-                                842
+                                812,
+                                817
                               ],
                               "loc": {
                                 "start": {
@@ -753,8 +753,8 @@
                               "value": "Contact Title",
                               "raw": "\"Contact Title\"",
                               "range": [
-                                844,
-                                859
+                                819,
+                                834
                               ],
                               "loc": {
                                 "start": {
@@ -772,8 +772,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              837,
-                              859
+                              812,
+                              834
                             ],
                             "loc": {
                               "start": {
@@ -788,8 +788,8 @@
                           }
                         ],
                         "range": [
-                          786,
-                          870
+                          763,
+                          844
                         ],
                         "loc": {
                           "start": {
@@ -811,8 +811,8 @@
                               "type": "Identifier",
                               "name": "field",
                               "range": [
-                                887,
-                                892
+                                860,
+                                865
                               ],
                               "loc": {
                                 "start": {
@@ -830,8 +830,8 @@
                               "value": "CompanyName",
                               "raw": "\"CompanyName\"",
                               "range": [
-                                894,
-                                907
+                                867,
+                                880
                               ],
                               "loc": {
                                 "start": {
@@ -849,8 +849,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              887,
-                              907
+                              860,
+                              880
                             ],
                             "loc": {
                               "start": {
@@ -869,8 +869,8 @@
                               "type": "Identifier",
                               "name": "title",
                               "range": [
-                                922,
-                                927
+                                894,
+                                899
                               ],
                               "loc": {
                                 "start": {
@@ -888,8 +888,8 @@
                               "value": "Company Name",
                               "raw": "\"Company Name\"",
                               "range": [
-                                929,
-                                943
+                                901,
+                                915
                               ],
                               "loc": {
                                 "start": {
@@ -907,8 +907,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              922,
-                              943
+                              894,
+                              915
                             ],
                             "loc": {
                               "start": {
@@ -923,8 +923,8 @@
                           }
                         ],
                         "range": [
-                          872,
-                          954
+                          846,
+                          925
                         ],
                         "loc": {
                           "start": {
@@ -946,8 +946,8 @@
                               "type": "Identifier",
                               "name": "field",
                               "range": [
-                                971,
-                                976
+                                941,
+                                946
                               ],
                               "loc": {
                                 "start": {
@@ -965,8 +965,8 @@
                               "value": "Country",
                               "raw": "\"Country\"",
                               "range": [
-                                978,
-                                987
+                                948,
+                                957
                               ],
                               "loc": {
                                 "start": {
@@ -984,8 +984,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              971,
-                              987
+                              941,
+                              957
                             ],
                             "loc": {
                               "start": {
@@ -1004,8 +1004,8 @@
                               "type": "Identifier",
                               "name": "width",
                               "range": [
-                                1002,
-                                1007
+                                971,
+                                976
                               ],
                               "loc": {
                                 "start": {
@@ -1023,8 +1023,8 @@
                               "value": 150,
                               "raw": "150",
                               "range": [
-                                1009,
-                                1012
+                                978,
+                                981
                               ],
                               "loc": {
                                 "start": {
@@ -1042,8 +1042,8 @@
                             "shorthand": false,
                             "computed": false,
                             "range": [
-                              1002,
-                              1012
+                              971,
+                              981
                             ],
                             "loc": {
                               "start": {
@@ -1058,8 +1058,8 @@
                           }
                         ],
                         "range": [
-                          956,
-                          1023
+                          927,
+                          991
                         ],
                         "loc": {
                           "start": {
@@ -1074,8 +1074,8 @@
                       }
                     ],
                     "range": [
-                      442,
-                      1024
+                      427,
+                      992
                     ],
                     "loc": {
                       "start": {
@@ -1093,8 +1093,8 @@
                   "shorthand": false,
                   "computed": false,
                   "range": [
-                    433,
-                    1024
+                    418,
+                    992
                   ],
                   "loc": {
                     "start": {
@@ -1109,8 +1109,8 @@
                 }
               ],
               "range": [
-                213,
-                1031
+                205,
+                998
               ],
               "loc": {
                 "start": {
@@ -1124,8 +1124,8 @@
               }
             },
             "range": [
-              206,
-              1032
+              198,
+              999
             ],
             "loc": {
               "start": {
@@ -1140,8 +1140,8 @@
           }
         ],
         "range": [
-          199,
-          1035
+          192,
+          1001
         ],
         "loc": {
           "start": {
@@ -1157,8 +1157,8 @@
       "generator": false,
       "expression": false,
       "range": [
-        174,
-        1035
+        167,
+        1001
       ],
       "loc": {
         "start": {
@@ -1180,8 +1180,8 @@
         "type": "Identifier",
         "name": "getTableModel",
         "range": [
-          1054,
-          1067
+          1018,
+          1031
         ],
         "loc": {
           "start": {
@@ -1195,8 +1195,8 @@
         }
       },
       "range": [
-        1039,
-        1068
+        1003,
+        1032
       ],
       "loc": {
         "start": {
@@ -1220,8 +1220,8 @@
           "type": "Identifier",
           "name": "getTableModel",
           "range": [
-            183,
-            196
+            176,
+            189
           ],
           "loc": {
             "start": {
@@ -1249,8 +1249,8 @@
                       "type": "Identifier",
                       "name": "name",
                       "range": [
-                        224,
-                        228
+                        215,
+                        219
                       ],
                       "loc": {
                         "start": {
@@ -1268,8 +1268,8 @@
                       "value": "northwind-customers",
                       "raw": "\"northwind-customers\"",
                       "range": [
-                        230,
-                        251
+                        221,
+                        242
                       ],
                       "loc": {
                         "start": {
@@ -1287,8 +1287,8 @@
                     "shorthand": false,
                     "computed": false,
                     "range": [
-                      224,
-                      251
+                      215,
+                      242
                     ],
                     "loc": {
                       "start": {
@@ -1307,8 +1307,8 @@
                       "type": "Identifier",
                       "name": "title",
                       "range": [
-                        262,
-                        267
+                        252,
+                        257
                       ],
                       "loc": {
                         "start": {
@@ -1326,8 +1326,8 @@
                       "value": "Northwind Customers",
                       "raw": "\"Northwind Customers\"",
                       "range": [
-                        269,
-                        290
+                        259,
+                        280
                       ],
                       "loc": {
                         "start": {
@@ -1345,8 +1345,8 @@
                     "shorthand": false,
                     "computed": false,
                     "range": [
-                      262,
-                      290
+                      252,
+                      280
                     ],
                     "loc": {
                       "start": {
@@ -1365,8 +1365,8 @@
                       "type": "Identifier",
                       "name": "paths",
                       "range": [
-                        301,
-                        306
+                        290,
+                        295
                       ],
                       "loc": {
                         "start": {
@@ -1388,8 +1388,8 @@
                             "type": "Identifier",
                             "name": "read",
                             "range": [
-                              323,
-                              327
+                              311,
+                              315
                             ],
                             "loc": {
                               "start": {
@@ -1407,8 +1407,8 @@
                             "value": "//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers",
                             "raw": "\"//demos.telerik.com/kendo-ui/service/Northwind.svc/Customers\"",
                             "range": [
-                              329,
-                              391
+                              317,
+                              379
                             ],
                             "loc": {
                               "start": {
@@ -1426,8 +1426,8 @@
                           "shorthand": false,
                           "computed": false,
                           "range": [
-                            323,
-                            391
+                            311,
+                            379
                           ],
                           "loc": {
                             "start": {
@@ -1442,8 +1442,8 @@
                         }
                       ],
                       "range": [
-                        308,
-                        402
+                        297,
+                        389
                       ],
                       "loc": {
                         "start": {
@@ -1461,8 +1461,8 @@
                     "shorthand": false,
                     "computed": false,
                     "range": [
-                      301,
-                      402
+                      290,
+                      389
                     ],
                     "loc": {
                       "start": {
@@ -1481,8 +1481,8 @@
                       "type": "Identifier",
                       "name": "model",
                       "range": [
-                        413,
-                        418
+                        399,
+                        404
                       ],
                       "loc": {
                         "start": {
@@ -1499,8 +1499,8 @@
                       "type": "ObjectExpression",
                       "properties": [],
                       "range": [
-                        420,
-                        422
+                        406,
+                        408
                       ],
                       "loc": {
                         "start": {
@@ -1518,8 +1518,8 @@
                     "shorthand": false,
                     "computed": false,
                     "range": [
-                      413,
-                      422
+                      399,
+                      408
                     ],
                     "loc": {
                       "start": {
@@ -1538,8 +1538,8 @@
                       "type": "Identifier",
                       "name": "columns",
                       "range": [
-                        433,
-                        440
+                        418,
+                        425
                       ],
                       "loc": {
                         "start": {
@@ -1564,8 +1564,8 @@
                                 "type": "Identifier",
                                 "name": "template",
                                 "range": [
-                                  458,
-                                  466
+                                  442,
+                                  450
                                 ],
                                 "loc": {
                                   "start": {
@@ -1586,11 +1586,11 @@
                                   "operator": "+",
                                   "left": {
                                     "type": "Literal",
-                                    "value": "<div class='customer-photo'ß",
-                                    "raw": "\"<div class='customer-photo'ß\"",
+                                    "value": "<div class='customer-photo'",
+                                    "raw": "\"<div class='customer-photo'\"",
                                     "range": [
-                                      468,
-                                      498
+                                      452,
+                                      481
                                     ],
                                     "loc": {
                                       "start": {
@@ -1599,7 +1599,7 @@
                                       },
                                       "end": {
                                         "line": 15,
-                                        "column": 52
+                                        "column": 51
                                       }
                                     }
                                   },
@@ -1608,8 +1608,8 @@
                                     "value": "style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>",
                                     "raw": "\"style='background-image: url(../content/web/Customers/#:data.CustomerID#.jpg);'></div>\"",
                                     "range": [
-                                      518,
-                                      606
+                                      500,
+                                      588
                                     ],
                                     "loc": {
                                       "start": {
@@ -1623,8 +1623,8 @@
                                     }
                                   },
                                   "range": [
-                                    468,
-                                    606
+                                    452,
+                                    588
                                   ],
                                   "loc": {
                                     "start": {
@@ -1642,8 +1642,8 @@
                                   "value": "<div class='customer-name'>#: ContactName #</div>",
                                   "raw": "\"<div class='customer-name'>#: ContactName #</div>\"",
                                   "range": [
-                                    626,
-                                    677
+                                    607,
+                                    658
                                   ],
                                   "loc": {
                                     "start": {
@@ -1657,8 +1657,8 @@
                                   }
                                 },
                                 "range": [
-                                  468,
-                                  677
+                                  452,
+                                  658
                                 ],
                                 "loc": {
                                   "start": {
@@ -1676,8 +1676,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                458,
-                                677
+                                442,
+                                658
                               ],
                               "loc": {
                                 "start": {
@@ -1696,8 +1696,8 @@
                                 "type": "Identifier",
                                 "name": "field",
                                 "range": [
-                                  692,
-                                  697
+                                  672,
+                                  677
                                 ],
                                 "loc": {
                                   "start": {
@@ -1715,8 +1715,8 @@
                                 "value": "ContactName",
                                 "raw": "\"ContactName\"",
                                 "range": [
-                                  699,
-                                  712
+                                  679,
+                                  692
                                 ],
                                 "loc": {
                                   "start": {
@@ -1734,8 +1734,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                692,
-                                712
+                                672,
+                                692
                               ],
                               "loc": {
                                 "start": {
@@ -1754,8 +1754,8 @@
                                 "type": "Identifier",
                                 "name": "title",
                                 "range": [
-                                  727,
-                                  732
+                                  706,
+                                  711
                                 ],
                                 "loc": {
                                   "start": {
@@ -1773,8 +1773,8 @@
                                 "value": "Contact Name",
                                 "raw": "\"Contact Name\"",
                                 "range": [
-                                  734,
-                                  748
+                                  713,
+                                  727
                                 ],
                                 "loc": {
                                   "start": {
@@ -1792,8 +1792,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                727,
-                                748
+                                706,
+                                727
                               ],
                               "loc": {
                                 "start": {
@@ -1812,8 +1812,8 @@
                                 "type": "Identifier",
                                 "name": "width",
                                 "range": [
-                                  763,
-                                  768
+                                  741,
+                                  746
                                 ],
                                 "loc": {
                                   "start": {
@@ -1831,8 +1831,8 @@
                                 "value": 240,
                                 "raw": "240",
                                 "range": [
-                                  770,
-                                  773
+                                  748,
+                                  751
                                 ],
                                 "loc": {
                                   "start": {
@@ -1850,8 +1850,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                763,
-                                773
+                                741,
+                                751
                               ],
                               "loc": {
                                 "start": {
@@ -1866,8 +1866,8 @@
                             }
                           ],
                           "range": [
-                            443,
-                            784
+                            428,
+                            761
                           ],
                           "loc": {
                             "start": {
@@ -1889,8 +1889,8 @@
                                 "type": "Identifier",
                                 "name": "field",
                                 "range": [
-                                  801,
-                                  806
+                                  777,
+                                  782
                                 ],
                                 "loc": {
                                   "start": {
@@ -1908,8 +1908,8 @@
                                 "value": "ContactTitle",
                                 "raw": "\"ContactTitle\"",
                                 "range": [
-                                  808,
-                                  822
+                                  784,
+                                  798
                                 ],
                                 "loc": {
                                   "start": {
@@ -1927,8 +1927,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                801,
-                                822
+                                777,
+                                798
                               ],
                               "loc": {
                                 "start": {
@@ -1947,8 +1947,8 @@
                                 "type": "Identifier",
                                 "name": "title",
                                 "range": [
-                                  837,
-                                  842
+                                  812,
+                                  817
                                 ],
                                 "loc": {
                                   "start": {
@@ -1966,8 +1966,8 @@
                                 "value": "Contact Title",
                                 "raw": "\"Contact Title\"",
                                 "range": [
-                                  844,
-                                  859
+                                  819,
+                                  834
                                 ],
                                 "loc": {
                                   "start": {
@@ -1985,8 +1985,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                837,
-                                859
+                                812,
+                                834
                               ],
                               "loc": {
                                 "start": {
@@ -2001,8 +2001,8 @@
                             }
                           ],
                           "range": [
-                            786,
-                            870
+                            763,
+                            844
                           ],
                           "loc": {
                             "start": {
@@ -2024,8 +2024,8 @@
                                 "type": "Identifier",
                                 "name": "field",
                                 "range": [
-                                  887,
-                                  892
+                                  860,
+                                  865
                                 ],
                                 "loc": {
                                   "start": {
@@ -2043,8 +2043,8 @@
                                 "value": "CompanyName",
                                 "raw": "\"CompanyName\"",
                                 "range": [
-                                  894,
-                                  907
+                                  867,
+                                  880
                                 ],
                                 "loc": {
                                   "start": {
@@ -2062,8 +2062,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                887,
-                                907
+                                860,
+                                880
                               ],
                               "loc": {
                                 "start": {
@@ -2082,8 +2082,8 @@
                                 "type": "Identifier",
                                 "name": "title",
                                 "range": [
-                                  922,
-                                  927
+                                  894,
+                                  899
                                 ],
                                 "loc": {
                                   "start": {
@@ -2101,8 +2101,8 @@
                                 "value": "Company Name",
                                 "raw": "\"Company Name\"",
                                 "range": [
-                                  929,
-                                  943
+                                  901,
+                                  915
                                 ],
                                 "loc": {
                                   "start": {
@@ -2120,8 +2120,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                922,
-                                943
+                                894,
+                                915
                               ],
                               "loc": {
                                 "start": {
@@ -2136,8 +2136,8 @@
                             }
                           ],
                           "range": [
-                            872,
-                            954
+                            846,
+                            925
                           ],
                           "loc": {
                             "start": {
@@ -2159,8 +2159,8 @@
                                 "type": "Identifier",
                                 "name": "field",
                                 "range": [
-                                  971,
-                                  976
+                                  941,
+                                  946
                                 ],
                                 "loc": {
                                   "start": {
@@ -2178,8 +2178,8 @@
                                 "value": "Country",
                                 "raw": "\"Country\"",
                                 "range": [
-                                  978,
-                                  987
+                                  948,
+                                  957
                                 ],
                                 "loc": {
                                   "start": {
@@ -2197,8 +2197,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                971,
-                                987
+                                941,
+                                957
                               ],
                               "loc": {
                                 "start": {
@@ -2217,8 +2217,8 @@
                                 "type": "Identifier",
                                 "name": "width",
                                 "range": [
-                                  1002,
-                                  1007
+                                  971,
+                                  976
                                 ],
                                 "loc": {
                                   "start": {
@@ -2236,8 +2236,8 @@
                                 "value": 150,
                                 "raw": "150",
                                 "range": [
-                                  1009,
-                                  1012
+                                  978,
+                                  981
                                 ],
                                 "loc": {
                                   "start": {
@@ -2255,8 +2255,8 @@
                               "shorthand": false,
                               "computed": false,
                               "range": [
-                                1002,
-                                1012
+                                971,
+                                981
                               ],
                               "loc": {
                                 "start": {
@@ -2271,8 +2271,8 @@
                             }
                           ],
                           "range": [
-                            956,
-                            1023
+                            927,
+                            991
                           ],
                           "loc": {
                             "start": {
@@ -2287,8 +2287,8 @@
                         }
                       ],
                       "range": [
-                        442,
-                        1024
+                        427,
+                        992
                       ],
                       "loc": {
                         "start": {
@@ -2306,8 +2306,8 @@
                     "shorthand": false,
                     "computed": false,
                     "range": [
-                      433,
-                      1024
+                      418,
+                      992
                     ],
                     "loc": {
                       "start": {
@@ -2322,8 +2322,8 @@
                   }
                 ],
                 "range": [
-                  213,
-                  1031
+                  205,
+                  998
                 ],
                 "loc": {
                   "start": {
@@ -2337,8 +2337,8 @@
                 }
               },
               "range": [
-                206,
-                1032
+                198,
+                999
               ],
               "loc": {
                 "start": {
@@ -2353,8 +2353,8 @@
             }
           ],
           "range": [
-            199,
-            1035
+            192,
+            1001
           ],
           "loc": {
             "start": {
@@ -2370,8 +2370,8 @@
         "generator": false,
         "expression": false,
         "range": [
-          174,
-          1035
+          167,
+          1001
         ],
         "loc": {
           "start": {
@@ -2386,10 +2386,10 @@
         "leadingComments": [
           {
             "type": "Line",
-            "value": "  Northwind Customers Table mmodel",
+            "value": "  Northwind Customers Table model",
             "range": [
               0,
-              36
+              35
             ],
             "loc": {
               "start": {
@@ -2398,16 +2398,16 @@
               },
               "end": {
                 "line": 1,
-                "column": 36
+                "column": 35
               }
             }
           },
           {
             "type": "Block",
-            "value": "*\r\n* This is getTableModel for Northwind Customers Table\r\n* @returns {object} the model object for the Northwind Customers Table\r\n",
+            "value": "*\n* This is getTableModel for Northwind Customers Table\n* @return {object} the model object for the Northwind Customers Table\n",
             "range": [
-              38,
-              172
+              36,
+              166
             ],
             "loc": {
               "start": {
@@ -2424,8 +2424,8 @@
         "trailingComments": []
       },
       "range": [
-        1039,
-        1068
+        1003,
+        1032
       ],
       "loc": {
         "start": {
@@ -2441,8 +2441,8 @@
   ],
   "sourceType": "module",
   "range": [
-    174,
-    1068
+    167,
+    1032
   ],
   "loc": {
     "start": {
@@ -2457,10 +2457,10 @@
   "comments": [
     {
       "type": "Line",
-      "value": "  Northwind Customers Table mmodel",
+      "value": "  Northwind Customers Table model",
       "range": [
         0,
-        36
+        35
       ],
       "loc": {
         "start": {
@@ -2469,16 +2469,16 @@
         },
         "end": {
           "line": 1,
-          "column": 36
+          "column": 35
         }
       }
     },
     {
       "type": "Block",
-      "value": "*\r\n* This is getTableModel for Northwind Customers Table\r\n* @returns {object} the model object for the Northwind Customers Table\r\n",
+      "value": "*\n* This is getTableModel for Northwind Customers Table\n* @return {object} the model object for the Northwind Customers Table\n",
       "range": [
-        38,
-        172
+        36,
+        166
       ],
       "loc": {
         "start": {
