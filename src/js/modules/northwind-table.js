@@ -1,7 +1,11 @@
+/* global $ */
+
 import "kendo.grid.js";
 import getTableWrapperTemplate from "./templates/tablewrappertemplate.js";
 
-
+/**
+ * 
+ */
 class Table {
     constructor(props) {
         this.props = props;
@@ -20,7 +24,7 @@ class Table {
 
         var $wrapper = $(this.wrapperSelector);
         $wrapper.append(parsedHTML);
-        var $el = $wrapper.find("#"  + this.el);
+        var $el = $wrapper.find("#" + this.el);
         $el.kendoGrid({
             dataSource: dataSource,
             height: 550,

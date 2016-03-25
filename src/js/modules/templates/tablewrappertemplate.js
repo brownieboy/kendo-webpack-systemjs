@@ -1,5 +1,12 @@
 // This function uses ES6 template strings,
 // see https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings
+
+/**
+ * Template for HTML that goes around an Kendo Grid table.  Note that this module actually exports the getTableWrapper function itself.  This must then be called externally to get the template text.
+ * @param  {string} tableId     id if the table, will be used as its html id
+ * @param  {String} tableTitle Title to be displayed in the panel-heading
+ * @return {string} the text of the template with values filled in.
+ */
 function getTableWrapper(tableId, tableTitle) {
     return `
         <div class="panel panel-default">

@@ -1,7 +1,12 @@
+/* global kendo */
  import "kendo.data.js"; // will be imported as kendo variable.  No need to specify.
 
-
- const getNewDataSource = function(props) {
+/**
+ * Sets up a new kendo.data.DataSource that will be bound to a table
+ * @param  {object} props Oject containing model and path
+ * @return {object} new kendo.data.DataSource
+ */
+ function getNewDataSource(props) {
      const model = props.model;
      const paths = props.paths;
 
@@ -17,6 +22,6 @@
      });
 
      return newDataSource;
- };
+ }
 
  export default getNewDataSource;

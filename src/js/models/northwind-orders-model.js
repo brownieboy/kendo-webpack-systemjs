@@ -1,7 +1,7 @@
 //  Northwind Orders Table model
 /**
  * This is getTableModel for Northwind Orders Table
- * @returns {object} the model object for the Northwind Customers Table
+ * @return {object} the model object for the Northwind Customers Table
  */
 function getTableModel() {
     return {
