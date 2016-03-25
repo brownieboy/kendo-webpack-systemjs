@@ -1,11 +1,11 @@
 {
-  "coverage": "90%",
-  "expectCount": 10,
-  "actualCount": 9,
+  "coverage": "92.3%",
+  "expectCount": 13,
+  "actualCount": 12,
   "files": {
     "src/js/modules/northwind-table.js": {
-      "expectCount": 4,
-      "actualCount": 3,
+      "expectCount": 7,
+      "actualCount": 6,
       "undocumentLines": [
         6
       ]

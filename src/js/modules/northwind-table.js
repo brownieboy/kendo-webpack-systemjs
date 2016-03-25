@@ -13,6 +13,7 @@ class Table {
     constructor(props) {
         /**
          * Props as in "properties" terminology borrowed from React.
+         * @private
          * @type {[type]}
          */
         this._props = props;

@@ -1,4 +1,5 @@
 {
     "source": "./src",
-    "destination": "./docs"
+    "destination": "./docs",
+    "access": ["public", "protected", "private"]
 }

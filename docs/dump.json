@@ -293,7 +293,7 @@
     "access": null,
     "description": null,
     "lineNumber": 3,
-    "content": "/* global $ */\n\nimport \"kendo.grid.js\";\nimport getTableWrapperTemplate from \"./templates/tablewrappertemplate.js\";\n\nclass Table {\n    /**\n     * Constructor takes props argument object and calls setupGrid method to setup a new kendoGrid based on those props\n     * @param  {object} props config object.  (Props terminology borrowed from React.)\n     * @param {function} props.getModel a function that when run will return the model for the grid\n     * @param {function} props.getNewDataSource a function that when run will return the kendo data source for the grid, based on the model data passed to it\n     */\n    constructor(props) {\n        /**\n         * Props as in \"properties\" terminology borrowed from React.\n         * @type {[type]}\n         */\n        this._props = props;\n        /**\n         * The actual kendoGrid that this class sets up\n         * @type {[type]}\n         */\n        this.currentGrid = this.setupGrid();\n        /**\n         * CSS selector for the element (e.g. a div) on which the kendo grid will be set up\n         * @type {[type]}\n         */\n        this._wrapperSelector = props.wrapperSelector || \"#tableWrapper\";\n        /**\n         * el (as in element) terminology is from Backbone\n         * @type {[type]}\n         */\n        this._el = props.getModel().name;\n        this.setupGrid(props);\n    }\n\n    /**\n     * method setups up the kendo grid based on props passed to the constructor\n     *  @return {null} nothing returned.  Grid is setup on the element this.el, which is based on the model definition name\n     */\n    setupGrid() {\n        var that = this;\n        const dataSource = this.props.getNewDataSource({ model: this[\"_props\"].getModel().model, paths: this[\"_props\"].getModel().paths });  // eslint-disable-line dot-notation\n\n        var templateData = getTableWrapperTemplate(this.props.getModel().name, this.props.getModel().title || \"Unknown title\");\n        var parsedHTML = $.parseHTML(templateData);\n\n        var $wrapper = $(this.wrapperSelector);\n        $wrapper.append(parsedHTML);\n        var $el = $wrapper.find(\"#\" + this.el);\n        $el.kendoGrid({\n            dataSource: dataSource,\n            height: 550,\n            groupable: true,\n            sortable: true,\n            pageable: {\n                refresh: true,\n                pageSizes: true,\n                buttonCount: 5\n            },\n            columns: that[\"_props\"].getModel().columns  // eslint-disable-line dot-notation\n        });\n    }\n}\n\nexport default Table;\n"
+    "content": "/* global $ */\n\nimport \"kendo.grid.js\";\nimport getTableWrapperTemplate from \"./templates/tablewrappertemplate.js\";\n\nclass Table {\n    /**\n     * Constructor takes props argument object and calls setupGrid method to setup a new kendoGrid based on those props\n     * @param  {object} props config object.  (Props terminology borrowed from React.)\n     * @param {function} props.getModel a function that when run will return the model for the grid\n     * @param {function} props.getNewDataSource a function that when run will return the kendo data source for the grid, based on the model data passed to it\n     */\n    constructor(props) {\n        /**\n         * Props as in \"properties\" terminology borrowed from React.\n         * @private\n         * @type {[type]}\n         */\n        this._props = props;\n        /**\n         * The actual kendoGrid that this class sets up\n         * @type {[type]}\n         */\n        this.currentGrid = this.setupGrid();\n        /**\n         * CSS selector for the element (e.g. a div) on which the kendo grid will be set up\n         * @type {[type]}\n         */\n        this._wrapperSelector = props.wrapperSelector || \"#tableWrapper\";\n        /**\n         * el (as in element) terminology is from Backbone\n         * @type {[type]}\n         */\n        this._el = props.getModel().name;\n        this.setupGrid(props);\n    }\n\n    /**\n     * method setups up the kendo grid based on props passed to the constructor\n     *  @return {null} nothing returned.  Grid is setup on the element this.el, which is based on the model definition name\n     */\n    setupGrid() {\n        var that = this;\n        const dataSource = this[\"_props\"].getNewDataSource({ model: this[\"_props\"].getModel().model, paths: this[\"_props\"].getModel().paths });  // eslint-disable-line dot-notation\n\n        var templateData = getTableWrapperTemplate(this[\"_props\"].getModel().name, this[\"_props\"].getModel().title || \"Unknown title\"); // eslint-disable-line dot-notation\n        var parsedHTML = $.parseHTML(templateData);\n\n        var $wrapper = $(this[\"_wrapperSelector\"]);  // eslint-disable-line dot-notation\n        $wrapper.append(parsedHTML);\n        var $el = $wrapper.find(\"#\" + this[\"_el\"]);  // eslint-disable-line dot-notation\n        $el.kendoGrid({\n            dataSource: dataSource,\n            height: 550,\n            groupable: true,\n            sortable: true,\n            pageable: {\n                refresh: true,\n                pageSizes: true,\n                buttonCount: 5\n            },\n            columns: that[\"_props\"].getModel().columns  // eslint-disable-line dot-notation\n        });\n    }\n}\n\nexport default Table;\n"
   },
   {
     "__docId__": 13,
@@ -365,9 +365,9 @@
     "name": "_props",
     "memberof": "src/js/modules/northwind-table.js~Table",
     "longname": "src/js/modules/northwind-table.js~Table#_props",
-    "access": null,
+    "access": "private",
     "description": "Props as in \"properties\" terminology borrowed from React.",
-    "lineNumber": 18,
+    "lineNumber": 19,
     "type": {
       "nullable": null,
       "types": [
@@ -387,7 +387,7 @@
     "longname": "src/js/modules/northwind-table.js~Table#currentGrid",
     "access": null,
     "description": "The actual kendoGrid that this class sets up",
-    "lineNumber": 23,
+    "lineNumber": 24,
     "type": {
       "nullable": null,
       "types": [
@@ -407,7 +407,7 @@
     "longname": "src/js/modules/northwind-table.js~Table#_wrapperSelector",
     "access": null,
     "description": "CSS selector for the element (e.g. a div) on which the kendo grid will be set up",
-    "lineNumber": 28,
+    "lineNumber": 29,
     "type": {
       "nullable": null,
       "types": [
@@ -427,7 +427,7 @@
     "longname": "src/js/modules/northwind-table.js~Table#_el",
     "access": null,
     "description": "el (as in element) terminology is from Backbone",
-    "lineNumber": 33,
+    "lineNumber": 34,
     "type": {
       "nullable": null,
       "types": [
@@ -447,7 +447,7 @@
     "longname": "src/js/modules/northwind-table.js~Table#setupGrid",
     "access": null,
     "description": "method setups up the kendo grid based on props passed to the constructor",
-    "lineNumber": 41,
+    "lineNumber": 42,
     "params": [],
     "return": {
       "nullable": null,

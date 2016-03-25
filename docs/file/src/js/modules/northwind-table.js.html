@@ -59,6 +59,7 @@ class Table {
     constructor(props) {
         /**
          * Props as in &quot;properties&quot; terminology borrowed from React.
+         * @private
          * @type {[type]}
          */
         this._props = props;
@@ -86,14 +87,14 @@ class Table {
      */
     setupGrid() {
         var that = this;
-        const dataSource = this.props.getNewDataSource({ model: this[&quot;_props&quot;].getModel().model, paths: this[&quot;_props&quot;].getModel().paths });  // eslint-disable-line dot-notation
+        const dataSource = this[&quot;_props&quot;].getNewDataSource({ model: this[&quot;_props&quot;].getModel().model, paths: this[&quot;_props&quot;].getModel().paths });  // eslint-disable-line dot-notation
 
-        var templateData = getTableWrapperTemplate(this.props.getModel().name, this.props.getModel().title || &quot;Unknown title&quot;);
+        var templateData = getTableWrapperTemplate(this[&quot;_props&quot;].getModel().name, this[&quot;_props&quot;].getModel().title || &quot;Unknown title&quot;); // eslint-disable-line dot-notation
         var parsedHTML = $.parseHTML(templateData);
 
-        var $wrapper = $(this.wrapperSelector);
+        var $wrapper = $(this[&quot;_wrapperSelector&quot;]);  // eslint-disable-line dot-notation
         $wrapper.append(parsedHTML);
-        var $el = $wrapper.find(&quot;#&quot; + this.el);
+        var $el = $wrapper.find(&quot;#&quot; + this[&quot;_el&quot;]);  // eslint-disable-line dot-notation
         $el.kendoGrid({
             dataSource: dataSource,
             height: 550,
