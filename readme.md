@@ -20,7 +20,7 @@ To run the Webpack development version, issue `npm run start` at your console to
 
 
 ##Build
-To build a standalone(ish) version using Webpack, issue `npm run start` at your console.  This will build everything you need to the /build folder.  All HTML, CSS and JS files will be copied into here.  The JS will be minified, and the correct references will be inserted for the `<script>` tags.  Only jQuery is still standalone.
+To build a standalone(ish) version using Webpack, issue `npm run build` at your console.  This will build everything you need to the /build folder.  All HTML, CSS and JS files will be copied into here.  The JS will be minified, and the correct references will be inserted for the `<script>` tags.  Only jQuery is still standalone.
 
 You'll get to two JS files from this build process:
 
