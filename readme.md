@@ -10,7 +10,7 @@ In this way, only the parts of Kendo that you're actually using will be included
 The code in this repository uses Node/npm to install its dependencies.  Setup instructions are:
 
 1. Install [Node/npm](https://nodejs.org/en/download/) if you don't have it already.  For Windows, you'll also need a bash shell, which you get if you install [Github for Windows] (https://desktop.github.com/) (make sure you tick the box to install the shell).
-1. In a bash window, git clone this repository.
+1. In a bash window, `git clone` this repository.
 1. cd to the repository folder, then issue `npm install` to download the dependencies.
 1. One of those dependencies will be Bower.  You can now use Bower to install Kendo Pro from the official Telerik Bower packages by issuing `bower install` (or ` node_modules/.bin/bower install` if that fails) at your command prompt.  You will be prompted to your Telerik ID and password at this stage, and may have to enter them twice
 
